@@ -1,0 +1,324 @@
+{
+  "generated_at": "2026-09-13T17:46:39.039476+00:00",
+  "note": "Только для чтения. recent_app_errors — уже отфильтровано под ошибки/исключения за последние 24ч, обычные access-логи вырезаны.",
+  "projects": [
+    {
+      "name": "El-Renda",
+      "services": [
+        {
+          "unit": "voltride-api.service",
+          "active": "active",
+          "sub": "running",
+          "since": "Thu 2026-09-10 16:12:01 MSK",
+          "restarts": "0",
+          "result": "success"
+        }
+      ],
+      "public_url_check": {
+        "ok": true,
+        "code": 200,
+        "ms": 63
+      },
+      "recent_commits": [
+        {
+          "repo": "elrenda",
+          "hash": "99810de",
+          "date": "2026-08-26 00:10:50 +0300",
+          "message": "Import elrenda frontend from production server (release 20260825174012)"
+        },
+        {
+          "repo": "voltride-api",
+          "hash": "6a491d1",
+          "date": "2026-08-26 00:05:41 +0300",
+          "message": "Import voltride-api from production server"
+        }
+      ],
+      "open_issues": {
+        "elrenda": {
+          "open": 0,
+          "total": 0
+        },
+        "voltride-api": {
+          "open": 0,
+          "total": 0
+        }
+      },
+      "recent_app_errors": []
+    },
+    {
+      "name": "El-Power",
+      "services": [
+        {
+          "unit": "elpower-api.service",
+          "active": "active",
+          "sub": "running",
+          "since": "Thu 2026-09-10 16:55:54 MSK",
+          "restarts": "0",
+          "result": "success"
+        },
+        {
+          "unit": "elpower-bot.service",
+          "active": "active",
+          "sub": "running",
+          "since": "Thu 2026-08-20 14:28:13 MSK",
+          "restarts": "0",
+          "result": "success"
+        }
+      ],
+      "public_url_check": {
+        "ok": true,
+        "code": 200,
+        "ms": 17
+      },
+      "recent_commits": [
+        {
+          "repo": "elpower-api",
+          "hash": "c5e7c38",
+          "date": "2026-08-16 21:21:46 +0300",
+          "message": "AKB constructor + cleanup"
+        },
+        {
+          "repo": "elpower-bot",
+          "hash": "73993d1",
+          "date": "2026-08-26 00:03:54 +0300",
+          "message": "Import elpower-bot from production server"
+        }
+      ],
+      "open_issues": {
+        "elpower-api": {
+          "open": 0,
+          "total": 0
+        },
+        "elpower-bot": {
+          "open": 0,
+          "total": 0
+        }
+      },
+      "recent_app_errors": [
+        "2026-09-13 17:16:02 [WARNING] tg curl-fail getWebhookInfo try 1: curl: (28) SSL connection timeout",
+        "2026-09-13 17:16:18 [WARNING] tg curl-fail getWebhookInfo try 2: curl: (28) SSL connection timeout",
+        "2026-09-13 17:16:36 [WARNING] tg curl-fail getWebhookInfo try 3: curl: (28) SSL connection timeout",
+        "2026-09-13 17:16:40 [ERROR] whinfo failed (98): Command '['curl', '--config', '-']' returned non-zero exit status 28.",
+        "2026-09-13 17:31:56 [WARNING] tg curl-fail getWebhookInfo try 1: curl: (28) SSL connection timeout",
+        "2026-09-13 17:32:12 [WARNING] tg curl-fail getWebhookInfo try 2: curl: (28) SSL connection timeout",
+        "2026-09-13 17:32:30 [WARNING] tg curl-fail getWebhookInfo try 3: curl: (28) SSL connection timeout",
+        "2026-09-13 17:32:34 [ERROR] whinfo failed (99): Command '['curl', '--config', '-']' returned non-zero exit status 28.",
+        "2026-09-13 17:47:49 [WARNING] tg curl-fail getWebhookInfo try 1: curl: (28) SSL connection timeout",
+        "2026-09-13 17:48:06 [WARNING] tg curl-fail getWebhookInfo try 2: curl: (28) SSL connection timeout",
+        "2026-09-13 17:48:23 [WARNING] tg curl-fail getWebhookInfo try 3: curl: (28) SSL connection timeout",
+        "2026-09-13 17:48:28 [ERROR] whinfo failed (100): Command '['curl', '--config', '-']' returned non-zero exit status 28.",
+        "2026-09-13 18:03:43 [WARNING] tg curl-fail getWebhookInfo try 1: curl: (28) SSL connection timeout",
+        "2026-09-13 18:03:59 [WARNING] tg curl-fail getWebhookInfo try 2: curl: (28) SSL connection timeout",
+        "2026-09-13 18:04:17 [WARNING] tg curl-fail getWebhookInfo try 3: curl: (28) SSL connection timeout",
+        "2026-09-13 18:04:21 [ERROR] whinfo failed (101): Command '['curl', '--config', '-']' returned non-zero exit status 28.",
+        "2026-09-13 18:19:36 [WARNING] tg curl-fail getWebhookInfo try 1: curl: (28) SSL connection timeout",
+        "2026-09-13 18:19:53 [WARNING] tg curl-fail getWebhookInfo try 2: curl: (28) SSL connection timeout",
+        "2026-09-13 18:20:11 [WARNING] tg curl-fail getWebhookInfo try 3: curl: (28) SSL connection timeout",
+        "2026-09-13 18:20:15 [ERROR] whinfo failed (102): Command '['curl', '--config', '-']' returned non-zero exit status 28.",
+        "2026-09-13 18:35:30 [WARNING] tg curl-fail getWebhookInfo try 1: curl: (28) SSL connection timeout",
+        "2026-09-13 18:35:46 [WARNING] tg curl-fail getWebhookInfo try 2: curl: (28) SSL connection timeout",
+        "2026-09-13 18:36:04 [WARNING] tg curl-fail getWebhookInfo try 3: curl: (28) SSL connection timeout",
+        "2026-09-13 18:36:08 [ERROR] whinfo failed (103): Command '['curl', '--config', '-']' returned non-zero exit status 28.",
+        "2026-09-13 18:51:24 [WARNING] tg curl-fail getWebhookInfo try 1: curl: (28) SSL connection timeout",
+        "2026-09-13 18:51:40 [WARNING] tg curl-fail getWebhookInfo try 2: curl: (28) SSL connection timeout",
+        "2026-09-13 18:51:58 [WARNING] tg curl-fail getWebhookInfo try 3: curl: (28) SSL connection timeout",
+        "2026-09-13 18:52:02 [ERROR] whinfo failed (104): Command '['curl', '--config', '-']' returned non-zero exit status 28.",
+        "2026-09-13 19:07:17 [WARNING] tg curl-fail getWebhookInfo try 1: curl: (28) SSL connection timeout",
+        "2026-09-13 19:07:34 [WARNING] tg curl-fail getWebhookInfo try 2: curl: (28) SSL connection timeout",
+        "2026-09-13 19:07:51 [WARNING] tg curl-fail getWebhookInfo try 3: curl: (28) SSL connection timeout",
+        "2026-09-13 19:07:56 [ERROR] whinfo failed (105): Command '['curl', '--config', '-']' returned non-zero exit status 28.",
+        "2026-09-13 19:23:11 [WARNING] tg curl-fail getWebhookInfo try 1: curl: (28) SSL connection timeout",
+        "2026-09-13 19:23:27 [WARNING] tg curl-fail getWebhookInfo try 2: curl: (28) SSL connection timeout",
+        "2026-09-13 19:23:45 [WARNING] tg curl-fail getWebhookInfo try 3: curl: (28) SSL connection timeout",
+        "2026-09-13 19:23:49 [ERROR] whinfo failed (106): Command '['curl', '--config', '-']' returned non-zero exit status 28.",
+        "2026-09-13 19:39:04 [WARNING] tg curl-fail getWebhookInfo try 1: curl: (28) SSL connection timeout",
+        "2026-09-13 19:39:21 [WARNING] tg curl-fail getWebhookInfo try 2: curl: (28) SSL connection timeout",
+        "2026-09-13 19:39:39 [WARNING] tg curl-fail getWebhookInfo try 3: curl: (28) SSL connection timeout",
+        "2026-09-13 19:39:43 [ERROR] whinfo failed (107): Command '['curl', '--config', '-']' returned non-zero exit status 28."
+      ]
+    }
+  ],
+  "nginx_errors_tail": [
+    "=== 2026-09-12T08:55:05+03:00 - nginx errors ===\n2026/09/12 08:44:50 [error] 423578#423578: *366888 access forbidden by rule, client: 142.250.32.97, server: elrenda.ru, request: \"GET /.well-known/assetlinks.json HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/12 08:44:50 [error] 423578#423578: *366889 access forbidden by rule, client: 142.250.32.96, server: elrenda.ru, request: \"GET /.well-known/assetlinks.json HTTP/1.1\", host: \"elrenda.ru\"",
+    "=== 2026-09-12T13:10:28+03:00 - nginx errors ===\n2026/09/12 12:56:33 [error] 423578#423578: *368532 open() \"/var/www/elrenda/apple-touch-icon-precomposed.png\" failed (2: No such file or directory), client: 91.79.139.99, server: elrenda.ru, request: \"GET /apple-touch-icon-precomposed.png HTTP/1.1\", host: \"elrenda.ru\"",
+    "=== 2026-09-12T13:25:30+03:00 - nginx errors ===\n2026/09/12 13:19:52 [error] 423579#423579: *368565 open() \"/var/www/elrenda/apple-touch-icon-precomposed.png\" failed (2: No such file or directory), client: 188.243.183.223, server: elrenda.ru, request: \"GET /apple-touch-icon-precomposed.png HTTP/1.1\", host: \"elrenda.ru\"",
+    "=== 2026-09-12T15:10:40+03:00 - nginx errors ===\n2026/09/12 15:07:29 [error] 423579#423579: *368698 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 85.217.149.9, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"",
+    "=== 2026-09-12T15:25:41+03:00 - nginx errors ===\n2026/09/12 15:23:53 [error] 423579#423579: *369203 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 85.217.149.34, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"",
+    "=== 2026-09-12T20:11:03+03:00 - nginx errors ===\n2026/09/12 19:58:14 [error] 423579#423579: *370920 access forbidden by rule, client: 169.58.45.73, server: elrenda.ru, request: \"GET /.env HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/12 19:58:14 [error] 423579#423579: *370920 access forbidden by rule, client: 169.58.45.73, server: elrenda.ru, request: \"GET /.env.production HTTP/1.1\", host: \"elrenda.ru\"",
+    "=== 2026-09-12T20:56:05+03:00 - nginx errors ===\n2026/09/12 20:55:29 [error] 423579#423579: *371019 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 66.132.224.227, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"",
+    "=== 2026-09-12T21:11:05+03:00 - nginx errors ===\n2026/09/12 20:57:18 [error] 423579#423579: *371021 openat() \"/usr/share/nginx/html/sellers.json\" failed (2: No such file or directory), client: 66.132.224.227, server: 155.212.161.162, request: \"GET /sellers.json HTTP/1.1\", host: \"155.212.161.162:1501\"",
+    "=== 2026-09-13T03:26:41+03:00 - nginx errors ===\n2026/09/13 03:18:41 [error] 423579#423579: *373878 open() \"/var/www/elrenda/apple-touch-icon-precomposed.png\" failed (2: No such file or directory), client: 91.79.127.163, server: elrenda.ru, request: \"GET /apple-touch-icon-precomposed.png HTTP/1.1\", host: \"elrenda.ru\"",
+    "=== 2026-09-13T12:27:29+03:00 - nginx errors ===\n2026/09/13 12:18:30 [error] 423578#423578: *374678 open() \"/var/www/elrenda/apple-touch-icon-precomposed.png\" failed (2: No such file or directory), client: 188.130.207.116, server: elrenda.ru, request: \"GET /apple-touch-icon-precomposed.png HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/13 12:18:30 [error] 423578#423578: *374682 open() \"/var/www/elrenda/apple-touch-icon.png\" failed (2: No such file or directory), client: 188.130.207.116, server: elrenda.ru, request: \"GET /apple-touch-icon.png HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/13 12:18:31 [error] 423578#423578: *374686 open() \"/var/www/elrenda/apple-touch-icon-120x120-precomposed.png\" failed (2: No such file or directory), client: 188.130.207.116, server: elrenda.ru, request: \"GET /apple-touch-icon-120x120-precomposed.png HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/13 12:18:31 [error] 423578#423578: *374686 open() \"/var/www/elrenda/apple-touch-icon-120x120.png\" failed (2: No such file or directory), client: 188.130.207.116, server: elrenda.ru, request: \"GET /apple-touch-icon-120x120.png HTTP/1.1\", host: \"elrenda.ru\"",
+    "=== 2026-09-13T13:42:31+03:00 - nginx errors ===\n2026/09/13 13:31:48 [error] 423578#423578: *374970 open() \"/var/www/elrenda/apple-touch-icon.png\" failed (2: No such file or directory), client: 5.44.42.38, server: elrenda.ru, request: \"GET /apple-touch-icon.png HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/13 13:31:49 [error] 423578#423578: *374970 open() \"/var/www/elrenda/apple-touch-icon-precomposed.png\" failed (2: No such file or directory), client: 5.44.42.38, server: elrenda.ru, request: \"GET /apple-touch-icon-precomposed.png HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/13 13:32:09 [error] 423579#423579: *374982 open() \"/var/www/elrenda/apple-touch-icon.png\" failed (2: No such file or directory), client: 5.44.42.38, server: elrenda.ru, request: \"GET /apple-touch-icon.png HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/13 13:32:09 [error] 423579#423579: *374982 open() \"/var/www/elrenda/apple-touch-icon-precomposed.png\" failed (2: No such file or directory), client: 5.44.42.38, server: elrenda.ru, request: \"GET /apple-touch-icon-precomposed.png HTTP/1.1\", host: \"elrenda.ru\"",
+    "=== 2026-09-13T14:57:38+03:00 - nginx errors ===\n2026/09/13 14:53:13 [error] 423578#423578: *375076 access forbidden by rule, client: 205.210.31.207, server: elrenda.ru, request: \"GET /.well-known/security.txt HTTP/1.1\", host: \"elrenda.ru\"",
+    "=== 2026-09-13T16:12:42+03:00 - nginx errors ===\n2026/09/13 15:59:49 [error] 423579#423579: *375535 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 85.217.149.7, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"",
+    "=== 2026-09-13T16:27:44+03:00 - nginx errors ===\n2026/09/13 16:14:54 [error] 423579#423579: *375754 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 85.217.149.56, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"",
+    "=== 2026-09-13T19:58:40+03:00 - nginx errors ===\n2026/09/13 19:47:41 [error] 423579#423579: *376566 access forbidden by rule, client: 169.58.45.73, server: elrenda.ru, request: \"GET /.env HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/13 19:47:41 [error] 423579#423579: *376566 access forbidden by rule, client: 169.58.45.73, server: elrenda.ru, request: \"GET /.env.production HTTP/1.1\", host: \"elrenda.ru\""
+  ],
+  "existing_tasks": [
+    {
+      "text": "нет связи с сервером",
+      "status": "active"
+    },
+    {
+      "text": "добавить статус в админ панели если клиент оставил завявку и не пришел прям такой статус и сделать \"не принес акб\"",
+      "status": "done"
+    },
+    {
+      "text": "Добавить видео (но чтобы хранилось на устройствах клиентов не хочу грузить сервер)",
+      "status": "active"
+    },
+    {
+      "text": "БАЗА ДАННЫХ",
+      "status": "active"
+    },
+    {
+      "text": "при создании байка в поле город и метро нужно авто выбор чтобы руками не вводить",
+      "status": "done"
+    },
+    {
+      "text": "донастроить доходы от выполненных заявок в кабинет",
+      "status": "active"
+    },
+    {
+      "text": "Добавить в сборку услугу подключение GPS внутри АКБ",
+      "status": "active"
+    },
+    {
+      "text": "история байка в карточке кто арендовал вся инфа что быдл в этой сесси арендлы , далее по списку полная история байка, то есть блоками",
+      "status": "done"
+    },
+    {
+      "text": "когда владелец добавляет байк там есть место передачи байка давай также как и в правилах сделаем сразу готовое место и добавим функцияя с фото допустим нужно подробно описать как и куда пройти, если место выбрано для всего одинаково то будет одинаково для всех, а давай знаешь сразу для всех правил т",
+      "status": "done"
+    },
+    {
+      "text": "мои байки карточка байка там нужно добавить где то аккуратненко статус GPS если он подключен, зеленый в сети, красный не в сети",
+      "status": "done"
+    },
+    {
+      "text": "оплата пока байк в ремонте - перввые дни беспалнто- что там указывать дни? нужно лучше пояснять владельцу",
+      "status": "done"
+    },
+    {
+      "text": "в окне управление блок нужно оплатить показывается так будто это райдер а не владелет ам написано нужно опалтить, напиши правильно и офрми блок как  надо",
+      "status": "done"
+    },
+    {
+      "text": "в приложении сделать в поиске фильтрмаци и сделать списко байков в ленте по две или одной плоской в ряд",
+      "status": "done"
+    },
+    {
+      "text": "В приложении у владельца в мои байки нету входящих проблемы фотоотчеты история и тд нужно доделать",
+      "status": "done"
+    },
+    {
+      "text": "когда владельцу пришля заявка на байк он открывает окно заявки и это окно нужно полностью улучшить и в вебе и в мобилке",
+      "status": "done"
+    },
+    {
+      "text": "прокачать окно история , сейчас там видно только платежи,  нужно видеть с какой по какой даты арендовал какие были проблемы в общем полный отчет завершенной аренды",
+      "status": "done"
+    },
+    {
+      "text": "убрать OTP  вход",
+      "status": "done"
+    },
+    {
+      "text": "кнопка забыл пароль и голочка запомнить пароль при в ходе",
+      "status": "done"
+    },
+    {
+      "text": "Настроить SMTP для elrenda (нужен пароль приложения Яндекс.Почты noreply@elrenda.ru) — без него восстановление пароля работает только звонком через SMS.ru",
+      "status": "active"
+    },
+    {
+      "text": "Опубликовать elrenda-mobile: eas build под production + заливка в Google Play Console (сейчас на телефонах только debug-сборка для теста)",
+      "status": "active"
+    },
+    {
+      "text": "Чат владелец↔райдер по открытой проблеме (\"Мои байки\"): сейчас переписка односторонняя — проблему создаёт райдер, отвечает владелец, а дальше райдер ничего написать в ответ не может. Нужно продумать решение (короткая переписка/тред именно по этой проблеме до её закрытия), но не плодить отдельный пол",
+      "status": "active"
+    },
+    {
+      "text": "Опубликовать elrenda-mobile в проде: eas build --profile production + загрузка в Google Play Console (сейчас на телефонах только debug/preview-сборки, в сторе приложения нет вообще)",
+      "status": "active"
+    },
+    {
+      "text": "Настроить SMTP (нужен пароль приложения Яндекс.Почты для noreply@elrenda.ru) — без него восстановление пароля работает ТОЛЬКО звонком через SMS.ru: авария у провайдера = никто не восстановит доступ",
+      "status": "active"
+    },
+    {
+      "text": "Заполнить в web/offer.html реальные ОГРНИП и адрес — сейчас там 'указывается при публикации', публичная оферта с площадкой юридически неполна",
+      "status": "active"
+    },
+    {
+      "text": "Включить PRIVACY_STRICT=on в .env бэкенда, когда старых сборок мобильного приложения (без флага согласия на ПДн) не останется у пользователей",
+      "status": "active"
+    },
+    {
+      "text": "Подключить мониторинг падений на телефоне/в браузере пользователя (Sentry или аналог) — сейчас краш у живого человека не виден нигде, только если сам напишет",
+      "status": "active"
+    },
+    {
+      "text": "Экспорт своих данных по запросу пользователя (152-ФЗ, право на переносимость) — сейчас есть только полное удаление аккаунта, скачать копию своих данных нельзя",
+      "status": "active"
+    },
+    {
+      "text": "2FA для владельцев (защита аккаунта, который принимает реальные деньги за аренду) — не начато",
+      "status": "active"
+    },
+    {
+      "text": "H02_ALLOWED_IPS для GPS-трекеров сверяет точные IP, а не CIDR — у SIM-карт трекеров IP плавает, поэтому на практике список пустой и защита не работает",
+      "status": "done"
+    },
+    {
+      "text": "Полный ручной регресс-прогон всего приложения (веб + мобилка) перед публичным запуском — последний раз то, что реально кликали живьём, было по кускам в отдельных сессиях",
+      "status": "active"
+    },
+    {
+      "text": "Обновить sharp в бэкенде — npm audit нашёл HIGH-уязвимости в libvips (CVE-2026-33327/33328/35590/35591), sharp обрабатывает КАЖДОЕ загруженное пользователем фото (upload.js). Апгрейд 0.33→0.35+ ломающий, нужно тестировать",
+      "status": "done"
+    },
+    {
+      "text": "Обновить express (тянет уязвимые body-parser/qs, DoS + обход array-limit) — npm audit backend, 3 moderate находки помимо sharp",
+      "status": "done"
+    },
+    {
+      "text": "Разобрать npm audit по мобилке — 26 находок (17 moderate, 9 high), в основном цепочка @expo/config/@expo/prebuild-config — понять, что реально влияет на собранное приложение, а что только на сборочные инструменты",
+      "status": "done"
+    },
+    {
+      "text": "Решить с iOS: сейчас в eas.json нет ios-профиля сборки и submit.production пустой — если планируется App Store, нужен Apple Developer аккаунт + App Store Connect API key; если нет — явно зафиксировать 'только Android' и не тратить время",
+      "status": "done"
+    },
+    {
+      "text": "Нагрузочный тест перед публичным запуском — неизвестно, как бэкенд ведёт себя при реальном одновременном трафике, сервер и БД никогда не проверялись под нагрузкой",
+      "status": "active"
+    },
+    {
+      "text": "Аудит покрытия rate-limit по всем роутам — часть эндпоинтов явно лимитирована (auth, upload, gps), но не было сплошной проверки, что НИ ОДИН чувствительный роут не остался без лимита вообще",
+      "status": "done"
+    },
+    {
+      "text": "Живая проверка доступности (screen reader/только клавиатура) — автотесты проверяют только семантику заголовков и keyboard-навигацию карточек, полного прохода по сайту вслепую не делали",
+      "status": "active"
+    },
+    {
+      "text": "Добавить 'пожаловаться' на сообщение в чате/переписке по проблеме — сейчас нет способа сообщить о неадекватном поведении собеседника прямо из переписки, только через штраф (владелец) или поддержку",
+      "status": "active"
+    },
+    {
+      "text": "Проверить геозону GPS end-to-end на реальном трекере — мониторится только 'gps_stale' (трекер молчит), а сам breach-алерт (байк покинул периметр) кодом покрыт, но живьём с реальным выездом за периметр не проверялся",
+      "status": "active"
+    },
+    {
+      "text": "Termius падает при работе с сервером (155.212.161.162): попробовать создать профиль хоста только на пароле (Password only, без keyboard-interactive/SSH-ключа) в настройках Termius — убрать лишний шаг согласования метода входа. Если не поможет — попробовать Mosh вместо обычного SSH.",
+      "status": "active"
+    },
+    {
+      "text": "Singapore VPS для investor-bot (снижение latency до Bybit): пользователь заводит аккаунт сам (AWS Lightsail, регион ap-southeast-1, Ubuntu 24.04, самый дешёвый тариф ~$3.50/мес) и присылает IP + доступ (SSH-ключ или пароль) — дальше перенос бота на новый сервер делает Claude. Ожидаемый эффект: laten",
+      "status": "active"
+    }
+  ]
+}
