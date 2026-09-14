@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T09:00:02.642824+00:00",
+  "generated_at": "2026-09-14T11:00:02.963763+00:00",
   "note": "Только для чтения. recent_app_errors — уже отфильтровано под ошибки/исключения за последние 24ч, обычные access-логи вырезаны.",
   "projects": [
     {
@@ -17,7 +17,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 236
+        "ms": 152
       },
       "recent_commits": [
         {
@@ -68,7 +68,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 61
+        "ms": 23
       },
       "recent_commits": [
         {
@@ -95,10 +95,6 @@
         }
       },
       "recent_app_errors": [
-        "2026-09-13 17:16:02 [WARNING] tg curl-fail getWebhookInfo try 1: curl: (28) SSL connection timeout",
-        "2026-09-13 17:16:18 [WARNING] tg curl-fail getWebhookInfo try 2: curl: (28) SSL connection timeout",
-        "2026-09-13 17:16:36 [WARNING] tg curl-fail getWebhookInfo try 3: curl: (28) SSL connection timeout",
-        "2026-09-13 17:16:40 [ERROR] whinfo failed (98): Command '['curl', '--config', '-']' returned non-zero exit status 28.",
         "2026-09-13 17:31:56 [WARNING] tg curl-fail getWebhookInfo try 1: curl: (28) SSL connection timeout",
         "2026-09-13 17:32:12 [WARNING] tg curl-fail getWebhookInfo try 2: curl: (28) SSL connection timeout",
         "2026-09-13 17:32:30 [WARNING] tg curl-fail getWebhookInfo try 3: curl: (28) SSL connection timeout",
@@ -134,7 +130,11 @@
         "2026-09-13 19:39:04 [WARNING] tg curl-fail getWebhookInfo try 1: curl: (28) SSL connection timeout",
         "2026-09-13 19:39:21 [WARNING] tg curl-fail getWebhookInfo try 2: curl: (28) SSL connection timeout",
         "2026-09-13 19:39:39 [WARNING] tg curl-fail getWebhookInfo try 3: curl: (28) SSL connection timeout",
-        "2026-09-13 19:39:43 [ERROR] whinfo failed (107): Command '['curl', '--config', '-']' returned non-zero exit status 28."
+        "2026-09-13 19:39:43 [ERROR] whinfo failed (107): Command '['curl', '--config', '-']' returned non-zero exit status 28.",
+        "2026-09-14 12:55:27 [WARNING] tg curl-fail getWebhookInfo try 1: curl: (28) SSL connection timeout",
+        "2026-09-14 12:55:30 [WARNING] tg curl-fail getWebhookInfo try 2: curl: (35) OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to api.telegram.org:443",
+        "2026-09-14 12:55:47 [WARNING] tg curl-fail getWebhookInfo try 3: curl: (28) SSL connection timeout",
+        "2026-09-14 12:55:52 [ERROR] whinfo failed (1): Command '['curl', '--config', '-']' returned non-zero exit status 28."
       ]
     }
   ],
@@ -238,7 +238,7 @@
     },
     {
       "text": "Чат владелец↔райдер по открытой проблеме (\"Мои байки\"): сейчас переписка односторонняя — проблему создаёт райдер, отвечает владелец, а дальше райдер ничего написать в ответ не может. Нужно продумать решение (короткая переписка/тред именно по этой проблеме до её закрытия), но не плодить отдельный пол",
-      "status": "active"
+      "status": "done"
     },
     {
       "text": "Опубликовать elrenda-mobile в проде: eas build --profile production + загрузка в Google Play Console (сейчас на телефонах только debug/preview-сборки, в сторе приложения нет вообще)",
