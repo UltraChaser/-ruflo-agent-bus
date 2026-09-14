@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T17:00:02.902610+00:00",
+  "generated_at": "2026-09-14T19:00:02.428513+00:00",
   "note": "Только для чтения. recent_app_errors — уже отфильтровано под ошибки/исключения за последние 24ч, обычные access-логи вырезаны.",
   "projects": [
     {
@@ -17,7 +17,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 93
+        "ms": 251
       },
       "recent_commits": [
         {
@@ -68,7 +68,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 73
+        "ms": 57
       },
       "recent_commits": [
         {
@@ -103,8 +103,6 @@
     }
   ],
   "nginx_errors_tail": [
-    "=== 2026-09-13T12:27:29+03:00 - nginx errors ===\n2026/09/13 12:18:30 [error] 423578#423578: *374678 open() \"/var/www/elrenda/apple-touch-icon-precomposed.png\" failed (2: No such file or directory), client: 188.130.207.116, server: elrenda.ru, request: \"GET /apple-touch-icon-precomposed.png HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/13 12:18:30 [error] 423578#423578: *374682 open() \"/var/www/elrenda/apple-touch-icon.png\" failed (2: No such file or directory), client: 188.130.207.116, server: elrenda.ru, request: \"GET /apple-touch-icon.png HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/13 12:18:31 [error] 423578#423578: *374686 open() \"/var/www/elrenda/apple-touch-icon-120x120-precomposed.png\" failed (2: No such file or directory), client: 188.130.207.116, server: elrenda.ru, request: \"GET /apple-touch-icon-120x120-precomposed.png HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/13 12:18:31 [error] 423578#423578: *374686 open() \"/var/www/elrenda/apple-touch-icon-120x120.png\" failed (2: No such file or directory), client: 188.130.207.116, server: elrenda.ru, request: \"GET /apple-touch-icon-120x120.png HTTP/1.1\", host: \"elrenda.ru\"",
-    "=== 2026-09-13T13:42:31+03:00 - nginx errors ===\n2026/09/13 13:31:48 [error] 423578#423578: *374970 open() \"/var/www/elrenda/apple-touch-icon.png\" failed (2: No such file or directory), client: 5.44.42.38, server: elrenda.ru, request: \"GET /apple-touch-icon.png HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/13 13:31:49 [error] 423578#423578: *374970 open() \"/var/www/elrenda/apple-touch-icon-precomposed.png\" failed (2: No such file or directory), client: 5.44.42.38, server: elrenda.ru, request: \"GET /apple-touch-icon-precomposed.png HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/13 13:32:09 [error] 423579#423579: *374982 open() \"/var/www/elrenda/apple-touch-icon.png\" failed (2: No such file or directory), client: 5.44.42.38, server: elrenda.ru, request: \"GET /apple-touch-icon.png HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/13 13:32:09 [error] 423579#423579: *374982 open() \"/var/www/elrenda/apple-touch-icon-precomposed.png\" failed (2: No such file or directory), client: 5.44.42.38, server: elrenda.ru, request: \"GET /apple-touch-icon-precomposed.png HTTP/1.1\", host: \"elrenda.ru\"",
     "=== 2026-09-13T14:57:38+03:00 - nginx errors ===\n2026/09/13 14:53:13 [error] 423578#423578: *375076 access forbidden by rule, client: 205.210.31.207, server: elrenda.ru, request: \"GET /.well-known/security.txt HTTP/1.1\", host: \"elrenda.ru\"",
     "=== 2026-09-13T16:12:42+03:00 - nginx errors ===\n2026/09/13 15:59:49 [error] 423579#423579: *375535 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 85.217.149.7, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"",
     "=== 2026-09-13T16:27:44+03:00 - nginx errors ===\n2026/09/13 16:14:54 [error] 423579#423579: *375754 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 85.217.149.56, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"",
@@ -117,7 +115,9 @@
     "=== 2026-09-14T19:01:50+03:00 - nginx errors ===\n2026/09/14 18:55:55 [error] 423579#423579: *383016 open() \"/var/www/elrenda/wp-includes/css/buttons.css\" failed (2: No such file or directory), client: 84.235.250.94, server: elrenda.ru, request: \"GET /wp-includes/css/buttons.css HTTP/1.1\", host: \"elrenda.ru\", referrer: \"http://elrenda.ru/wp-includes/css/buttons.css\"\n2026/09/14 18:55:56 [error] 423579#423579: *383016 open() \"/var/www/elrenda/media/system/js/core.js\" failed (2: No such file or directory), client: 84.235.250.94, server: elrenda.ru, request: \"GET /media/system/js/core.js HTTP/1.1\", host: \"elrenda.ru\", referrer: \"http://elrenda.ru/media/system/js/core.js\"",
     "=== 2026-09-14T19:17:18+03:00 - nginx errors ===\n2026/09/14 19:07:50 [error] 423579#423579: *383029 access forbidden by rule, client: 34.83.64.102, server: elrenda.ru, request: \"GET /.git/config HTTP/1.1\", host: \"elrenda.ru\", referrer: \"https://www.elrenda.ru/.git/config\"",
     "=== 2026-09-14T19:32:31+03:00 - nginx errors ===\n2026/09/14 19:20:34 [error] 423578#423578: *383034 open() \"/var/www/elrenda/apple-touch-icon-precomposed.png\" failed (2: No such file or directory), client: 178.157.183.217, server: elrenda.ru, request: \"GET /apple-touch-icon-precomposed.png HTTP/1.1\", host: \"elrenda.ru\"",
-    "=== 2026-09-14T19:47:33+03:00 - nginx errors ===\n2026/09/14 19:41:49 [error] 423579#423579: *383078 access forbidden by rule, client: 169.58.45.73, server: elrenda.ru, request: \"GET /.env HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/14 19:41:50 [error] 423579#423579: *383078 access forbidden by rule, client: 169.58.45.73, server: elrenda.ru, request: \"GET /.env.production HTTP/1.1\", host: \"elrenda.ru\""
+    "=== 2026-09-14T19:47:33+03:00 - nginx errors ===\n2026/09/14 19:41:49 [error] 423579#423579: *383078 access forbidden by rule, client: 169.58.45.73, server: elrenda.ru, request: \"GET /.env HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/14 19:41:50 [error] 423579#423579: *383078 access forbidden by rule, client: 169.58.45.73, server: elrenda.ru, request: \"GET /.env.production HTTP/1.1\", host: \"elrenda.ru\"",
+    "=== 2026-09-14T20:33:10+03:00 - nginx errors ===\n2026/09/14 20:22:57 [error] 423578#423578: *383153 client intended to send too large body: 10485761 bytes, client: 193.138.195.140, server: api.elpowerspb.ru, request: \"POST / HTTP/1.1\", host: \"155.212.161.162\"\n2026/09/14 20:23:04 [error] 423578#423578: *383155 client intended to send too large body: 10485760 bytes, client: 193.138.195.140, server: api.elpowerspb.ru, request: \"POST / HTTP/1.1\", host: \"155.212.161.162\"\n2026/09/14 20:30:33 [error] 423579#423579: *383161 access forbidden by rule, client: 193.32.162.155, server: elrenda.ru, request: \"GET /.svn/wc.db HTTP/1.1\", host: \"elrenda.ru\"",
+    "=== 2026-09-14T21:03:30+03:00 - nginx errors ===\n2026/09/14 20:55:21 [error] 423579#423579: *383189 access forbidden by rule, client: 35.252.245.69, server: elrenda.ru, request: \"GET /.git/config HTTP/1.1\", host: \"elrenda.ru\""
   ],
   "existing_tasks": [
     {
