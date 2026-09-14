@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T05:00:02.600523+00:00",
+  "generated_at": "2026-09-14T07:00:02.332402+00:00",
   "note": "Только для чтения. recent_app_errors — уже отфильтровано под ошибки/исключения за последние 24ч, обычные access-логи вырезаны.",
   "projects": [
     {
@@ -17,7 +17,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 453
+        "ms": 215
       },
       "recent_commits": [
         {
@@ -68,7 +68,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 182
+        "ms": 39
       },
       "recent_commits": [
         {
@@ -139,7 +139,6 @@
     }
   ],
   "nginx_errors_tail": [
-    "=== 2026-09-12T13:10:28+03:00 - nginx errors ===\n2026/09/12 12:56:33 [error] 423578#423578: *368532 open() \"/var/www/elrenda/apple-touch-icon-precomposed.png\" failed (2: No such file or directory), client: 91.79.139.99, server: elrenda.ru, request: \"GET /apple-touch-icon-precomposed.png HTTP/1.1\", host: \"elrenda.ru\"",
     "=== 2026-09-12T13:25:30+03:00 - nginx errors ===\n2026/09/12 13:19:52 [error] 423579#423579: *368565 open() \"/var/www/elrenda/apple-touch-icon-precomposed.png\" failed (2: No such file or directory), client: 188.243.183.223, server: elrenda.ru, request: \"GET /apple-touch-icon-precomposed.png HTTP/1.1\", host: \"elrenda.ru\"",
     "=== 2026-09-12T15:10:40+03:00 - nginx errors ===\n2026/09/12 15:07:29 [error] 423579#423579: *368698 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 85.217.149.9, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"",
     "=== 2026-09-12T15:25:41+03:00 - nginx errors ===\n2026/09/12 15:23:53 [error] 423579#423579: *369203 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 85.217.149.34, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"",
@@ -153,7 +152,8 @@
     "=== 2026-09-13T16:12:42+03:00 - nginx errors ===\n2026/09/13 15:59:49 [error] 423579#423579: *375535 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 85.217.149.7, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"",
     "=== 2026-09-13T16:27:44+03:00 - nginx errors ===\n2026/09/13 16:14:54 [error] 423579#423579: *375754 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 85.217.149.56, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"",
     "=== 2026-09-13T19:58:40+03:00 - nginx errors ===\n2026/09/13 19:47:41 [error] 423579#423579: *376566 access forbidden by rule, client: 169.58.45.73, server: elrenda.ru, request: \"GET /.env HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/13 19:47:41 [error] 423579#423579: *376566 access forbidden by rule, client: 169.58.45.73, server: elrenda.ru, request: \"GET /.env.production HTTP/1.1\", host: \"elrenda.ru\"",
-    "=== 2026-09-13T22:30:02+03:00 - nginx errors ===\n2026/09/13 22:17:34 [error] 423579#423579: *380824 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 66.132.195.89, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/09/13 22:18:22 [error] 423578#423578: *380829 openat() \"/usr/share/nginx/html/security.txt\" failed (2: No such file or directory), client: 66.132.195.89, server: 155.212.161.162, request: \"GET /security.txt HTTP/1.1\", host: \"155.212.161.162:1501\""
+    "=== 2026-09-13T22:30:02+03:00 - nginx errors ===\n2026/09/13 22:17:34 [error] 423579#423579: *380824 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 66.132.195.89, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/09/13 22:18:22 [error] 423578#423578: *380829 openat() \"/usr/share/nginx/html/security.txt\" failed (2: No such file or directory), client: 66.132.195.89, server: 155.212.161.162, request: \"GET /security.txt HTTP/1.1\", host: \"155.212.161.162:1501\"",
+    "=== 2026-09-14T08:36:53+03:00 - nginx errors ===\n2026/09/14 08:27:40 [error] 423578#423578: *381657 open() \"/var/www/elrenda/wp-includes/css/buttons.css\" failed (2: No such file or directory), client: 134.185.85.61, server: elrenda.ru, request: \"GET /wp-includes/css/buttons.css HTTP/1.1\", host: \"elrenda.ru\", referrer: \"http://elrenda.ru/wp-includes/css/buttons.css\"\n2026/09/14 08:27:40 [error] 423578#423578: *381657 open() \"/var/www/elrenda/media/system/js/core.js\" failed (2: No such file or directory), client: 134.185.85.61, server: elrenda.ru, request: \"GET /media/system/js/core.js HTTP/1.1\", host: \"elrenda.ru\", referrer: \"http://elrenda.ru/media/system/js/core.js\""
   ],
   "existing_tasks": [
     {
