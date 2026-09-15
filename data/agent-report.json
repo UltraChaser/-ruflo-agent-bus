@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T23:00:02.932196+00:00",
+  "generated_at": "2026-09-15T01:00:02.750500+00:00",
   "note": "Только для чтения. recent_app_errors — уже отфильтровано под ошибки/исключения за последние 24ч, обычные access-логи вырезаны.",
   "projects": [
     {
@@ -17,7 +17,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 100
+        "ms": 199
       },
       "recent_commits": [
         {
@@ -68,7 +68,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 24
+        "ms": 50
       },
       "recent_commits": [
         {
@@ -103,7 +103,6 @@
     }
   ],
   "nginx_errors_tail": [
-    "=== 2026-09-13T16:12:42+03:00 - nginx errors ===\n2026/09/13 15:59:49 [error] 423579#423579: *375535 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 85.217.149.7, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"",
     "=== 2026-09-13T16:27:44+03:00 - nginx errors ===\n2026/09/13 16:14:54 [error] 423579#423579: *375754 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 85.217.149.56, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"",
     "=== 2026-09-13T19:58:40+03:00 - nginx errors ===\n2026/09/13 19:47:41 [error] 423579#423579: *376566 access forbidden by rule, client: 169.58.45.73, server: elrenda.ru, request: \"GET /.env HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/13 19:47:41 [error] 423579#423579: *376566 access forbidden by rule, client: 169.58.45.73, server: elrenda.ru, request: \"GET /.env.production HTTP/1.1\", host: \"elrenda.ru\"",
     "=== 2026-09-13T22:30:02+03:00 - nginx errors ===\n2026/09/13 22:17:34 [error] 423579#423579: *380824 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 66.132.195.89, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/09/13 22:18:22 [error] 423578#423578: *380829 openat() \"/usr/share/nginx/html/security.txt\" failed (2: No such file or directory), client: 66.132.195.89, server: 155.212.161.162, request: \"GET /security.txt HTTP/1.1\", host: \"155.212.161.162:1501\"",
@@ -117,7 +116,8 @@
     "=== 2026-09-14T19:47:33+03:00 - nginx errors ===\n2026/09/14 19:41:49 [error] 423579#423579: *383078 access forbidden by rule, client: 169.58.45.73, server: elrenda.ru, request: \"GET /.env HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/14 19:41:50 [error] 423579#423579: *383078 access forbidden by rule, client: 169.58.45.73, server: elrenda.ru, request: \"GET /.env.production HTTP/1.1\", host: \"elrenda.ru\"",
     "=== 2026-09-14T20:33:10+03:00 - nginx errors ===\n2026/09/14 20:22:57 [error] 423578#423578: *383153 client intended to send too large body: 10485761 bytes, client: 193.138.195.140, server: api.elpowerspb.ru, request: \"POST / HTTP/1.1\", host: \"155.212.161.162\"\n2026/09/14 20:23:04 [error] 423578#423578: *383155 client intended to send too large body: 10485760 bytes, client: 193.138.195.140, server: api.elpowerspb.ru, request: \"POST / HTTP/1.1\", host: \"155.212.161.162\"\n2026/09/14 20:30:33 [error] 423579#423579: *383161 access forbidden by rule, client: 193.32.162.155, server: elrenda.ru, request: \"GET /.svn/wc.db HTTP/1.1\", host: \"elrenda.ru\"",
     "=== 2026-09-14T21:03:30+03:00 - nginx errors ===\n2026/09/14 20:55:21 [error] 423579#423579: *383189 access forbidden by rule, client: 35.252.245.69, server: elrenda.ru, request: \"GET /.git/config HTTP/1.1\", host: \"elrenda.ru\"",
-    "=== 2026-09-14T23:04:29+03:00 - nginx errors ===\n2026/09/14 22:51:11 [error] 423579#423579: *383420 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 66.132.224.223, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/09/14 22:52:42 [error] 423579#423579: *383433 openat() \"/usr/share/nginx/html/robots.txt\" failed (2: No such file or directory), client: 66.132.224.223, server: 155.212.161.162, request: \"GET /robots.txt HTTP/1.1\", host: \"155.212.161.162:1501\""
+    "=== 2026-09-14T23:04:29+03:00 - nginx errors ===\n2026/09/14 22:51:11 [error] 423579#423579: *383420 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 66.132.224.223, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/09/14 22:52:42 [error] 423579#423579: *383433 openat() \"/usr/share/nginx/html/robots.txt\" failed (2: No such file or directory), client: 66.132.224.223, server: 155.212.161.162, request: \"GET /robots.txt HTTP/1.1\", host: \"155.212.161.162:1501\"",
+    "=== 2026-09-15T03:38:37+03:00 - nginx errors ===\n2026/09/15 03:23:53 [error] 423579#423579: *384400 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 66.132.195.98, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/09/15 03:24:03 [error] 423579#423579: *384405 openat() \"/usr/share/nginx/html/ai/site-profile.json\" failed (2: No such file or directory), client: 66.132.195.98, server: 155.212.161.162, request: \"GET /ai/site-profile.json HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/09/15 03:31:49 [error] 423579#423579: *384423 access forbidden by rule, client: 207.180.243.111, server: elrenda.ru, request: \"GET /core/.env HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/15 03:31:50 [error] 423579#423579: *384422 access forbidden by rule, client: 207.180.243.111, server: elrenda.ru, request: \"GET /.env HTTP/1.1\", host: \"elrenda.ru\""
   ],
   "existing_tasks": [
     {
