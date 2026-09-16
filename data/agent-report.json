@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T07:00:02.932829+00:00",
+  "generated_at": "2026-09-16T09:00:03.040279+00:00",
   "note": "Только для чтения. recent_app_errors — уже отфильтровано под ошибки/исключения за последние 24ч, обычные access-логи вырезаны.",
   "projects": [
     {
@@ -17,7 +17,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 91
+        "ms": 129
       },
       "recent_commits": [
         {
@@ -43,9 +43,7 @@
           "total": 0
         }
       },
-      "recent_app_errors": [
-        "[client-error] platform=web app=? ip=127.0.0.1"
-      ]
+      "recent_app_errors": []
     },
     {
       "name": "El-Power",
@@ -70,7 +68,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 57
+        "ms": 99
       },
       "recent_commits": [
         {
@@ -104,7 +102,8 @@
     "=== 2026-09-16T03:56:44+03:00 - nginx errors ===\n2026/09/16 03:54:20 [error] 423578#423578: *394743 open() \"/var/www/elrenda/bike/55/assets/icon-192.png\" failed (2: No such file or directory), client: 74.7.243.221, server: elrenda.ru, request: \"GET /bike/55/assets/icon-192.png HTTP/1.1\", host: \"elrenda.ru\", referrer: \"https://elrenda.ru/bike/55/\"\n2026/09/16 03:54:22 [error] 423578#423578: *394743 open() \"/var/www/elrenda/bike/55/assets/apple-touch-icon.png\" failed (2: No such file or directory), client: 74.7.243.221, server: elrenda.ru, request: \"GET /bike/55/assets/apple-touch-icon.png HTTP/1.1\", host: \"elrenda.ru\", referrer: \"https://elrenda.ru/bike/55/\"\n2026/09/16 03:54:24 [error] 423578#423578: *394743 open() \"/var/www/elrenda/bike/55/css/bundle.css\" failed (2: No such file or directory), client: 74.7.243.221, server: elrenda.ru, request: \"GET /bike/55/css/bundle.css?v=0.9.183 HTTP/1.1\", host: \"elrenda.ru\", referrer: \"https://elrenda.ru/bike/55/\"\n2026/09/16 03:54:27 [error] 423578#423578: *394743 open() \"/var/www/elrenda/bike/55/js/bundle.js\" failed (2: No such file or directory), client: 74.7.243.221, server: elrenda.ru, request: \"GET /bike/55/js/bundle.js?v=0.9.183 HTTP/1.1\", host: \"elrenda.ru\", referrer: \"https://elrenda.ru/bike/55/\"\n2026/09/16 03:54:28 [error] 423578#423578: *394743 open() \"/var/www/elrenda/bike/55/js/img-fallback.js\" failed (2: No such file or directory), client: 74.7.243.221, server: elrenda.ru, request: \"GET /bike/55/js/img-fallback.js?v=0.9.183 HTTP/1.1\", host: \"elrenda.ru\", referrer: \"https://elrenda.ru/bike/55/\"\n2026/09/16 03:54:29 [error] 423578#423578: *394743 open() \"/var/www/elrenda/bike/56/assets/apple-touch-icon.png\" failed (2: No such file or directory), client: 74.7.243.221, server: elrenda.ru, request: \"GET /bike/56/assets/apple-touch-icon.png HTTP/1.1\", host: \"elrenda.ru\", referrer: \"https://elrenda.ru/bike/56/\"\n2026/09/16 03:54:30 [error] 423578#423578: *394743 open() \"/var/www/elrenda/bike/56/css/bundle.css\" failed (2: No such file or directory), client: 74.7.243.221, server: elrenda.ru, request: \"GET /bike/56/css/bundle.css?v=0.9.183 HTTP/1.1\", host: \"elrenda.ru\", referrer: \"https://elrenda.ru/bike/56/\"\n2026/09/16 03:54:32 [error] 423578#423578: *394743 open() \"/var/www/elrenda/bike/56/assets/icon-192.png\" failed (2: No such file or directory), client: 74.7.243.221, server: elrenda.ru, request: \"GET /bike/56/assets/icon-192.png HTTP/1.1\", host: \"elrenda.ru\", referrer: \"https://elrenda.ru/bike/56/\"\n2026/09/16 03:54:33 [error] 423578#423578: *394743 open() \"/var/www/elrenda/bike/54/assets/icon-192.png\" failed (2: No such file or directory), client: 74.7.243.221, server: elrenda.ru, request: \"GET /bike/54/assets/icon-192.png HTTP/1.1\", host: \"elrenda.ru\", referrer: \"https://elrenda.ru/bike/54/\"\n2026/09/16 03:54:34 [error] 423578#423578: *394743 open() \"/var/www/elrenda/bike/54/assets/apple-touch-icon.png\" failed (2: No such file or directory), client: 74.7.243.221, server: elrenda.ru, request: \"GET /bike/54/assets/apple-touch-icon.png HTTP/1.1\", host: \"elrenda.ru\", referrer: \"https://elrenda.ru/bike/54/\"\n2026/09/16 03:54:35 [error] 423578#423578: *394743 open() \"/var/www/elrenda/bike/56/js/bundle.js\" failed (2: No such file or directory), client: 74.7.243.221, server: elrenda.ru, request: \"GET /bike/56/js/bundle.js?v=0.9.183 HTTP/1.1\", host: \"elrenda.ru\", referrer: \"https://elrenda.ru/bike/56/\"\n2026/09/16 03:54:35 [error] 423578#423578: *394743 open() \"/var/www/elrenda/bike/54/js/bundle.js\" failed (2: No such file or directory), client: 74.7.243.221, server: elrenda.ru, request: \"GET /bike/54/js/bundle.js?v=0.9.183 HTTP/1.1\", host: \"elrenda.ru\", referrer: \"https://elrenda.ru/bike/54/\"\n2026/09/16 03:54:36 [error] 423578#423578: *394743 open() \"/var/www/elrenda/bike/54/js/img-fallback.js\" failed (2: No such file or directory), client: 74.7.243.221, server: elrenda.ru, request: \"GET /bike/54/js/img-fallback.js?v=0.9.183 HTTP/1.1\", host: \"elrenda.ru\", referrer: \"https://elrenda.ru/bike/54/\"\n2026/09/16 03:54:37 [error] 423578#423578: *394743 open() \"/var/www/elrenda/bike/56/js/img-fallback.js\" failed (2: No such file or directory), client: 74.7.243.221, server: elrenda.ru, request: \"GET /bike/56/js/img-fallback.js?v=0.9.183 HTTP/1.1\", host: \"elrenda.ru\", referrer: \"https://elrenda.ru/bike/56/\"\n2026/09/16 03:54:37 [error] 423578#423578: *394743 open() \"/var/www/elrenda/bike/54/css/bundle.css\" failed (2: No such file or directory), client: 74.7.243.221, server: elrenda.ru, request: \"GET /bike/54/css/bundle.css?v=0.9.183 HTTP/1.1\", host: \"elrenda.ru\", referrer: \"https://elrenda.ru/bike/54/\"",
     "=== 2026-09-16T04:26:58+03:00 - nginx errors ===\n2026/09/16 04:24:28 [error] 423578#423578: *394854 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 66.132.224.225, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/09/16 04:25:58 [error] 423578#423578: *394860 openat() \"/usr/share/nginx/html/security.txt\" failed (2: No such file or directory), client: 66.132.224.225, server: 155.212.161.162, request: \"GET /security.txt HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/09/16 04:26:31 [error] 423578#423578: *394863 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 66.132.186.166, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"",
     "=== 2026-09-16T04:42:20+03:00 - nginx errors ===\n2026/09/16 04:28:18 [error] 423579#423579: *394873 openat() \"/usr/share/nginx/html/app-ads.txt\" failed (2: No such file or directory), client: 66.132.186.166, server: 155.212.161.162, request: \"GET /app-ads.txt HTTP/1.1\", host: \"155.212.161.162:1501\"",
-    "=== 2026-09-16T08:46:42+03:00 - nginx errors ===\n2026/09/16 08:44:45 [error] 423578#423578: *395528 open() \"/var/www/elrenda/favicon.png\" failed (2: No such file or directory), client: 44.211.86.58, server: elrenda.ru, request: \"GET /favicon.png HTTP/1.1\", host: \"elrenda.ru\""
+    "=== 2026-09-16T08:46:42+03:00 - nginx errors ===\n2026/09/16 08:44:45 [error] 423578#423578: *395528 open() \"/var/www/elrenda/favicon.png\" failed (2: No such file or directory), client: 44.211.86.58, server: elrenda.ru, request: \"GET /favicon.png HTTP/1.1\", host: \"elrenda.ru\"",
+    "=== 2026-09-16T11:04:44+03:00 - nginx errors ===\n2026/09/16 11:00:43 [error] 423578#423578: *395682 access forbidden by rule, client: 207.180.243.111, server: elrenda.ru, request: \"GET /.env HTTP/1.1\", host: \"elrenda.ru\""
   ],
   "existing_tasks": [
     {
