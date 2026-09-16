@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T23:00:03.283247+00:00",
+  "generated_at": "2026-09-16T01:00:02.677190+00:00",
   "note": "Только для чтения. recent_app_errors — уже отфильтровано под ошибки/исключения за последние 24ч, обычные access-логи вырезаны.",
   "projects": [
     {
@@ -17,7 +17,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 98
+        "ms": 189
       },
       "recent_commits": [
         {
@@ -70,7 +70,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 46
+        "ms": 22
       },
       "recent_commits": [
         {
@@ -100,7 +100,8 @@
     }
   ],
   "nginx_errors_tail": [
-    "=== 2026-09-16T01:55:48+03:00 - nginx errors ===\n2026/09/16 01:53:48 [error] 423578#423578: *394626 open() \"/var/www/elrenda/apple-touch-icon-precomposed.png\" failed (2: No such file or directory), client: 178.66.156.139, server: elrenda.ru, request: \"GET /apple-touch-icon-precomposed.png HTTP/1.1\", host: \"elrenda.ru\""
+    "=== 2026-09-16T01:55:48+03:00 - nginx errors ===\n2026/09/16 01:53:48 [error] 423578#423578: *394626 open() \"/var/www/elrenda/apple-touch-icon-precomposed.png\" failed (2: No such file or directory), client: 178.66.156.139, server: elrenda.ru, request: \"GET /apple-touch-icon-precomposed.png HTTP/1.1\", host: \"elrenda.ru\"",
+    "=== 2026-09-16T03:56:44+03:00 - nginx errors ===\n2026/09/16 03:54:20 [error] 423578#423578: *394743 open() \"/var/www/elrenda/bike/55/assets/icon-192.png\" failed (2: No such file or directory), client: 74.7.243.221, server: elrenda.ru, request: \"GET /bike/55/assets/icon-192.png HTTP/1.1\", host: \"elrenda.ru\", referrer: \"https://elrenda.ru/bike/55/\"\n2026/09/16 03:54:22 [error] 423578#423578: *394743 open() \"/var/www/elrenda/bike/55/assets/apple-touch-icon.png\" failed (2: No such file or directory), client: 74.7.243.221, server: elrenda.ru, request: \"GET /bike/55/assets/apple-touch-icon.png HTTP/1.1\", host: \"elrenda.ru\", referrer: \"https://elrenda.ru/bike/55/\"\n2026/09/16 03:54:24 [error] 423578#423578: *394743 open() \"/var/www/elrenda/bike/55/css/bundle.css\" failed (2: No such file or directory), client: 74.7.243.221, server: elrenda.ru, request: \"GET /bike/55/css/bundle.css?v=0.9.183 HTTP/1.1\", host: \"elrenda.ru\", referrer: \"https://elrenda.ru/bike/55/\"\n2026/09/16 03:54:27 [error] 423578#423578: *394743 open() \"/var/www/elrenda/bike/55/js/bundle.js\" failed (2: No such file or directory), client: 74.7.243.221, server: elrenda.ru, request: \"GET /bike/55/js/bundle.js?v=0.9.183 HTTP/1.1\", host: \"elrenda.ru\", referrer: \"https://elrenda.ru/bike/55/\"\n2026/09/16 03:54:28 [error] 423578#423578: *394743 open() \"/var/www/elrenda/bike/55/js/img-fallback.js\" failed (2: No such file or directory), client: 74.7.243.221, server: elrenda.ru, request: \"GET /bike/55/js/img-fallback.js?v=0.9.183 HTTP/1.1\", host: \"elrenda.ru\", referrer: \"https://elrenda.ru/bike/55/\"\n2026/09/16 03:54:29 [error] 423578#423578: *394743 open() \"/var/www/elrenda/bike/56/assets/apple-touch-icon.png\" failed (2: No such file or directory), client: 74.7.243.221, server: elrenda.ru, request: \"GET /bike/56/assets/apple-touch-icon.png HTTP/1.1\", host: \"elrenda.ru\", referrer: \"https://elrenda.ru/bike/56/\"\n2026/09/16 03:54:30 [error] 423578#423578: *394743 open() \"/var/www/elrenda/bike/56/css/bundle.css\" failed (2: No such file or directory), client: 74.7.243.221, server: elrenda.ru, request: \"GET /bike/56/css/bundle.css?v=0.9.183 HTTP/1.1\", host: \"elrenda.ru\", referrer: \"https://elrenda.ru/bike/56/\"\n2026/09/16 03:54:32 [error] 423578#423578: *394743 open() \"/var/www/elrenda/bike/56/assets/icon-192.png\" failed (2: No such file or directory), client: 74.7.243.221, server: elrenda.ru, request: \"GET /bike/56/assets/icon-192.png HTTP/1.1\", host: \"elrenda.ru\", referrer: \"https://elrenda.ru/bike/56/\"\n2026/09/16 03:54:33 [error] 423578#423578: *394743 open() \"/var/www/elrenda/bike/54/assets/icon-192.png\" failed (2: No such file or directory), client: 74.7.243.221, server: elrenda.ru, request: \"GET /bike/54/assets/icon-192.png HTTP/1.1\", host: \"elrenda.ru\", referrer: \"https://elrenda.ru/bike/54/\"\n2026/09/16 03:54:34 [error] 423578#423578: *394743 open() \"/var/www/elrenda/bike/54/assets/apple-touch-icon.png\" failed (2: No such file or directory), client: 74.7.243.221, server: elrenda.ru, request: \"GET /bike/54/assets/apple-touch-icon.png HTTP/1.1\", host: \"elrenda.ru\", referrer: \"https://elrenda.ru/bike/54/\"\n2026/09/16 03:54:35 [error] 423578#423578: *394743 open() \"/var/www/elrenda/bike/56/js/bundle.js\" failed (2: No such file or directory), client: 74.7.243.221, server: elrenda.ru, request: \"GET /bike/56/js/bundle.js?v=0.9.183 HTTP/1.1\", host: \"elrenda.ru\", referrer: \"https://elrenda.ru/bike/56/\"\n2026/09/16 03:54:35 [error] 423578#423578: *394743 open() \"/var/www/elrenda/bike/54/js/bundle.js\" failed (2: No such file or directory), client: 74.7.243.221, server: elrenda.ru, request: \"GET /bike/54/js/bundle.js?v=0.9.183 HTTP/1.1\", host: \"elrenda.ru\", referrer: \"https://elrenda.ru/bike/54/\"\n2026/09/16 03:54:36 [error] 423578#423578: *394743 open() \"/var/www/elrenda/bike/54/js/img-fallback.js\" failed (2: No such file or directory), client: 74.7.243.221, server: elrenda.ru, request: \"GET /bike/54/js/img-fallback.js?v=0.9.183 HTTP/1.1\", host: \"elrenda.ru\", referrer: \"https://elrenda.ru/bike/54/\"\n2026/09/16 03:54:37 [error] 423578#423578: *394743 open() \"/var/www/elrenda/bike/56/js/img-fallback.js\" failed (2: No such file or directory), client: 74.7.243.221, server: elrenda.ru, request: \"GET /bike/56/js/img-fallback.js?v=0.9.183 HTTP/1.1\", host: \"elrenda.ru\", referrer: \"https://elrenda.ru/bike/56/\"\n2026/09/16 03:54:37 [error] 423578#423578: *394743 open() \"/var/www/elrenda/bike/54/css/bundle.css\" failed (2: No such file or directory), client: 74.7.243.221, server: elrenda.ru, request: \"GET /bike/54/css/bundle.css?v=0.9.183 HTTP/1.1\", host: \"elrenda.ru\", referrer: \"https://elrenda.ru/bike/54/\""
   ],
   "existing_tasks": [
     {
