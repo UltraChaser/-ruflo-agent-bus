@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T17:00:02.830166+00:00",
+  "generated_at": "2026-09-16T19:00:02.850404+00:00",
   "note": "Только для чтения. recent_app_errors — уже отфильтровано под ошибки/исключения за последние 24ч, обычные access-логи вырезаны.",
   "projects": [
     {
@@ -17,7 +17,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 308
+        "ms": 143
       },
       "recent_commits": [
         {
@@ -68,7 +68,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 166
+        "ms": 40
       },
       "recent_commits": [
         {
@@ -107,7 +107,10 @@
     "=== 2026-09-16T12:51:44+03:00 - nginx errors ===\n2026/09/16 12:47:01 [error] 423579#423579: *395981 open() \"/var/www/elrenda/apple-touch-icon-precomposed.png\" failed (2: No such file or directory), client: 178.157.181.7, server: elrenda.ru, request: \"GET /apple-touch-icon-precomposed.png HTTP/1.1\", host: \"elrenda.ru\"",
     "=== 2026-09-16T14:53:50+03:00 - nginx errors ===\n2026/09/16 14:43:25 [error] 423578#423578: *396082 open() \"/var/www/elrenda/favicon.png\" failed (2: No such file or directory), client: 54.162.41.189, server: elrenda.ru, request: \"GET /favicon.png HTTP/1.1\", host: \"elrenda.ru\"",
     "=== 2026-09-16T16:24:50+03:00 - nginx errors ===\n2026/09/16 16:15:44 [error] 423579#423579: *396405 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 66.132.186.199, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/09/16 16:16:10 [error] 423579#423579: *396410 openat() \"/usr/share/nginx/html/.well-known/security.txt\" failed (2: No such file or directory), client: 66.132.186.199, server: 155.212.161.162, request: \"GET /.well-known/security.txt HTTP/1.1\", host: \"155.212.161.162:1501\"",
-    "=== 2026-09-16T17:25:50+03:00 - nginx errors ===\n2026/09/16 17:13:11 [error] 423579#423579: *396568 open() \"/var/www/elrenda/apple-touch-icon-precomposed.png\" failed (2: No such file or directory), client: 178.157.138.100, server: elrenda.ru, request: \"GET /apple-touch-icon-precomposed.png HTTP/1.1\", host: \"elrenda.ru\""
+    "=== 2026-09-16T17:25:50+03:00 - nginx errors ===\n2026/09/16 17:13:11 [error] 423579#423579: *396568 open() \"/var/www/elrenda/apple-touch-icon-precomposed.png\" failed (2: No such file or directory), client: 178.157.138.100, server: elrenda.ru, request: \"GET /apple-touch-icon-precomposed.png HTTP/1.1\", host: \"elrenda.ru\"",
+    "=== 2026-09-16T20:13:01+03:00 - nginx errors ===\n2026/09/16 20:08:09 [error] 423578#423578: *397119 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 85.217.149.28, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"",
+    "=== 2026-09-16T21:14:22+03:00 - nginx errors ===\n2026/09/16 21:01:16 [error] 423578#423578: *397292 access forbidden by rule, client: 169.58.45.73, server: elrenda.ru, request: \"GET /.env HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/16 21:01:16 [error] 423578#423578: *397292 access forbidden by rule, client: 169.58.45.73, server: elrenda.ru, request: \"GET /.env.production HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/16 21:01:16 [error] 423578#423578: *397292 access forbidden by rule, client: 169.58.45.73, server: elrenda.ru, request: \"GET /.zshrc HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/16 21:01:17 [error] 423578#423578: *397292 access forbidden by rule, client: 169.58.45.73, server: elrenda.ru, request: \"GET /backend/.env HTTP/1.1\", host: \"elrenda.ru\"",
+    "=== 2026-09-16T21:59:39+03:00 - nginx errors ===\n2026/09/16 21:51:29 [error] 423579#423579: *397598 user \"admin\" was not found in \"/etc/nginx/.htpasswd-panel\", client: 5.44.42.38, server: panel.elrenda.ru, request: \"GET / HTTP/1.1\", host: \"panel.elrenda.ru\"\n2026/09/16 21:51:31 [error] 423579#423579: *397599 user \"admin\" was not found in \"/etc/nginx/.htpasswd-panel\", client: 5.44.42.38, server: panel.elrenda.ru, request: \"GET / HTTP/1.1\", host: \"panel.elrenda.ru\"\n2026/09/16 21:51:34 [error] 423579#423579: *397600 user \"admin\" was not found in \"/etc/nginx/.htpasswd-panel\", client: 5.44.42.38, server: panel.elrenda.ru, request: \"GET / HTTP/1.1\", host: \"panel.elrenda.ru\""
   ],
   "existing_tasks": [
     {
@@ -296,6 +299,10 @@
     },
     {
       "text": "ФИЧА: отдельная регистрация владелец/райдер. Регистрация как райдер - обычная, сразу. Чтобы стать владельцем - нужно подать заявку (одобрение). Если уже зарегистрирован как владелец - переключение на райдера БЕЗ доп. регистрации/заявки (свободно).",
+      "status": "active"
+    },
+    {
+      "text": "Конструктор АКБ (lk.elpowerspb.ru/pack3d.html) — на мобильных (390px) обрезается по правому краю: 1) блок 1 'Габарит под сборку' — 4-колоночная строка Запас Д/В/Ш/Зазор, 4-я колонка уезжает за край; 2) блок 3 'Требования заказа' — строка Ток разряда/Ток заряда (2 колонки), правое поле обрезано; 3) б",
       "status": "active"
     }
   ]
