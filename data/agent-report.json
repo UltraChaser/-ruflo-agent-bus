@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T07:00:02.428496+00:00",
+  "generated_at": "2026-09-17T09:00:02.519307+00:00",
   "note": "Только для чтения. recent_app_errors — уже отфильтровано под ошибки/исключения за последние 24ч, обычные access-логи вырезаны.",
   "projects": [
     {
@@ -17,7 +17,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 262
+        "ms": 183
       },
       "recent_commits": [
         {
@@ -68,7 +68,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 137
+        "ms": 44
       },
       "recent_commits": [
         {
@@ -111,7 +111,8 @@
     "=== 2026-09-16T20:13:01+03:00 - nginx errors ===\n2026/09/16 20:08:09 [error] 423578#423578: *397119 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 85.217.149.28, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"",
     "=== 2026-09-16T21:14:22+03:00 - nginx errors ===\n2026/09/16 21:01:16 [error] 423578#423578: *397292 access forbidden by rule, client: 169.58.45.73, server: elrenda.ru, request: \"GET /.env HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/16 21:01:16 [error] 423578#423578: *397292 access forbidden by rule, client: 169.58.45.73, server: elrenda.ru, request: \"GET /.env.production HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/16 21:01:16 [error] 423578#423578: *397292 access forbidden by rule, client: 169.58.45.73, server: elrenda.ru, request: \"GET /.zshrc HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/16 21:01:17 [error] 423578#423578: *397292 access forbidden by rule, client: 169.58.45.73, server: elrenda.ru, request: \"GET /backend/.env HTTP/1.1\", host: \"elrenda.ru\"",
     "=== 2026-09-16T21:59:39+03:00 - nginx errors ===\n2026/09/16 21:51:29 [error] 423579#423579: *397598 user \"admin\" was not found in \"/etc/nginx/.htpasswd-panel\", client: 5.44.42.38, server: panel.elrenda.ru, request: \"GET / HTTP/1.1\", host: \"panel.elrenda.ru\"\n2026/09/16 21:51:31 [error] 423579#423579: *397599 user \"admin\" was not found in \"/etc/nginx/.htpasswd-panel\", client: 5.44.42.38, server: panel.elrenda.ru, request: \"GET / HTTP/1.1\", host: \"panel.elrenda.ru\"\n2026/09/16 21:51:34 [error] 423579#423579: *397600 user \"admin\" was not found in \"/etc/nginx/.htpasswd-panel\", client: 5.44.42.38, server: panel.elrenda.ru, request: \"GET / HTTP/1.1\", host: \"panel.elrenda.ru\"",
-    "=== 2026-09-17T06:37:24+03:00 - nginx errors ===\n2026/09/17 06:32:14 [error] 423579#423579: *399018 open() \"/var/www/elrenda/apple-touch-icon-precomposed.png\" failed (2: No such file or directory), client: 88.201.174.214, server: elrenda.ru, request: \"GET /apple-touch-icon-precomposed.png HTTP/1.1\", host: \"elrenda.ru\""
+    "=== 2026-09-17T06:37:24+03:00 - nginx errors ===\n2026/09/17 06:32:14 [error] 423579#423579: *399018 open() \"/var/www/elrenda/apple-touch-icon-precomposed.png\" failed (2: No such file or directory), client: 88.201.174.214, server: elrenda.ru, request: \"GET /apple-touch-icon-precomposed.png HTTP/1.1\", host: \"elrenda.ru\"",
+    "=== 2026-09-17T11:27:48+03:00 - nginx errors ===\n2026/09/17 11:18:14 [error] 423578#423578: *399496 open() \"/var/www/elrenda/bike/55/css/bundle.css\" failed (2: No such file or directory), client: 155.212.161.162, server: elrenda.ru, request: \"GET /bike/55/css/bundle.css HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/17 11:18:37 [error] 423578#423578: *399497 open() \"/var/www/elrenda/bike/39/css/bundle.css\" failed (2: No such file or directory), client: 155.212.161.162, server: elrenda.ru, request: \"GET /bike/39/css/bundle.css HTTP/1.1\", host: \"elrenda.ru\""
   ],
   "existing_tasks": [
     {
