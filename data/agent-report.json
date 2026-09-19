@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T19:00:02.700832+00:00",
+  "generated_at": "2026-09-19T21:00:04.864789+00:00",
   "note": "Только для чтения. recent_app_errors — уже отфильтровано под ошибки/исключения за последние 24ч, обычные access-логи вырезаны.",
   "projects": [
     {
@@ -17,7 +17,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 123
+        "ms": 237
       },
       "recent_commits": [
         {
@@ -68,7 +68,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 27
+        "ms": 61
       },
       "recent_commits": [
         {
@@ -106,7 +106,8 @@
     "=== 2026-09-19T07:00:50+03:00 - nginx errors ===\n2026/09/19 06:46:54 [error] 423579#423579: *410388 access forbidden by rule, client: 13.200.6.88, server: elrenda.ru, request: \"GET /.git/config HTTP/1.1\", host: \"elrenda.ru\"",
     "=== 2026-09-19T18:40:30+03:00 - nginx errors ===\n2026/09/19 18:39:09 [error] 423579#423579: *412618 access forbidden by rule, client: 20.110.231.139, server: elrenda.ru, request: \"GET /.env HTTP/1.1\", host: \"elrenda.ru\"",
     "=== 2026-09-19T18:55:44+03:00 - nginx errors ===\n2026/09/19 18:46:34 [error] 423578#423578: *412655 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 66.132.195.110, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/09/19 18:47:10 [error] 423578#423578: *412660 openat() \"/usr/share/nginx/html/login\" failed (2: No such file or directory), client: 66.132.195.110, server: 155.212.161.162, request: \"GET /login HTTP/1.1\", host: \"155.212.161.162:1501\"",
-    "=== 2026-09-19T21:43:10+03:00 - nginx errors ===\n2026/09/19 21:35:00 [error] 423579#423579: *413135 access forbidden by rule, client: 45.138.12.21, server: elrenda.ru, request: \"GET /.git/config HTTP/1.1\", host: \"elrenda.ru\""
+    "=== 2026-09-19T21:43:10+03:00 - nginx errors ===\n2026/09/19 21:35:00 [error] 423579#423579: *413135 access forbidden by rule, client: 45.138.12.21, server: elrenda.ru, request: \"GET /.git/config HTTP/1.1\", host: \"elrenda.ru\"",
+    "=== 2026-09-19T23:29:44+03:00 - nginx errors ===\n2026/09/19 23:22:11 [error] 423579#423579: *413503 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 85.217.149.45, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\""
   ],
   "existing_tasks": [
     {
