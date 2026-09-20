@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T07:00:02.680707+00:00",
+  "generated_at": "2026-09-20T09:00:03.416342+00:00",
   "note": "Только для чтения. recent_app_errors — уже отфильтровано под ошибки/исключения за последние 24ч, обычные access-логи вырезаны.",
   "projects": [
     {
@@ -9,7 +9,7 @@
           "unit": "voltride-api.service",
           "active": "active",
           "sub": "running",
-          "since": "Thu 2026-09-17 14:07:48 MSK",
+          "since": "Sun 2026-09-20 10:43:15 MSK",
           "restarts": "0",
           "result": "success"
         }
@@ -17,7 +17,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 347
+        "ms": 94
       },
       "recent_commits": [
         {
@@ -68,7 +68,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 393
+        "ms": 462
       },
       "recent_commits": [
         {
@@ -99,7 +99,8 @@
   ],
   "nginx_errors_tail": [
     "=== 2026-09-20T00:45:02+03:00 - nginx errors ===\n2026/09/20 00:30:34 [error] 423579#423579: *413594 access forbidden by rule, client: 94.154.43.158, server: elrenda.ru, request: \"GET /.env HTTP/1.1\", host: \"elrenda.ru\"",
-    "=== 2026-09-20T06:05:17+03:00 - nginx errors ===\n2026/09/20 05:58:21 [error] 423579#423579: *413989 open() \"/var/www/elrenda/apple-touch-icon-precomposed.png\" failed (2: No such file or directory), client: 91.79.117.3, server: elrenda.ru, request: \"GET /apple-touch-icon-precomposed.png HTTP/1.1\", host: \"elrenda.ru\""
+    "=== 2026-09-20T06:05:17+03:00 - nginx errors ===\n2026/09/20 05:58:21 [error] 423579#423579: *413989 open() \"/var/www/elrenda/apple-touch-icon-precomposed.png\" failed (2: No such file or directory), client: 91.79.117.3, server: elrenda.ru, request: \"GET /apple-touch-icon-precomposed.png HTTP/1.1\", host: \"elrenda.ru\"",
+    "=== 2026-09-20T10:23:27+03:00 - nginx errors ===\n2026/09/20 10:13:43 [error] 423578#423578: *414406 access forbidden by rule, client: 5.44.42.38, server: elrenda.ru, request: \"GET /.env HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/20 10:13:47 [error] 423579#423579: *414407 access forbidden by rule, client: 5.44.42.38, server: elrenda.ru, request: \"GET /.git/config HTTP/1.1\", host: \"elrenda.ru\""
   ],
   "existing_tasks": [
     {
