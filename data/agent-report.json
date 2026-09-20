@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T21:00:03.295405+00:00",
+  "generated_at": "2026-09-20T23:00:02.531498+00:00",
   "note": "Только для чтения. recent_app_errors — уже отфильтровано под ошибки/исключения за последние 24ч, обычные access-логи вырезаны.",
   "projects": [
     {
@@ -17,7 +17,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 205
+        "ms": 199
       },
       "recent_commits": [
         {
@@ -70,7 +70,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 90
+        "ms": 32
       },
       "recent_commits": [
         {
@@ -110,7 +110,8 @@
     "=== 2026-09-20T19:59:24+03:00 - nginx errors ===\n2026/09/20 19:49:32 [error] 423579#423579: *416819 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 66.132.195.97, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/09/20 19:50:12 [error] 423579#423579: *416824 openat() \"/usr/share/nginx/html/wiki\" failed (2: No such file or directory), client: 66.132.195.97, server: 155.212.161.162, request: \"GET /wiki HTTP/1.1\", host: \"155.212.161.162:1501\"",
     "=== 2026-09-20T20:14:36+03:00 - nginx errors ===\n2026/09/20 20:03:43 [error] 423579#423579: *416870 access forbidden by rule, client: 5.44.42.38, server: elrenda.ru, request: \"GET /api/uploads/..%2F..%2F.env HTTP/1.1\", host: \"elrenda.ru\"",
     "=== 2026-09-20T20:45:00+03:00 - nginx errors ===\n2026/09/20 20:42:47 [error] 423578#423578: *417041 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 16.5.0.238, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162\"",
-    "=== 2026-09-20T21:15:01+03:00 - nginx errors ===\n2026/09/20 21:05:08 [error] 423578#423578: *417069 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 16.5.0.240, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162\""
+    "=== 2026-09-20T21:15:01+03:00 - nginx errors ===\n2026/09/20 21:05:08 [error] 423578#423578: *417069 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 16.5.0.240, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162\"",
+    "=== 2026-09-21T00:17:41+03:00 - nginx errors ===\n2026/09/21 00:15:00 [error] 423578#423578: *417311 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 85.217.149.18, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\""
   ],
   "existing_tasks": [
     {
