@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T05:00:02.595421+00:00",
+  "generated_at": "2026-09-20T07:00:02.680707+00:00",
   "note": "Только для чтения. recent_app_errors — уже отфильтровано под ошибки/исключения за последние 24ч, обычные access-логи вырезаны.",
   "projects": [
     {
@@ -17,7 +17,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 132
+        "ms": 347
       },
       "recent_commits": [
         {
@@ -68,7 +68,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 137
+        "ms": 393
       },
       "recent_commits": [
         {
@@ -94,9 +94,7 @@
           "total": 0
         }
       },
-      "recent_app_errors": [
-        "2026-09-19 09:00:22 [WARNING] tg curl-fail getWebhookInfo try 1: curl: (28) SSL connection timeout"
-      ]
+      "recent_app_errors": []
     }
   ],
   "nginx_errors_tail": [
