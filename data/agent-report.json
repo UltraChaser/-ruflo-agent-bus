@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T15:00:03.013243+00:00",
+  "generated_at": "2026-09-20T17:00:02.531440+00:00",
   "note": "Только для чтения. recent_app_errors — уже отфильтровано под ошибки/исключения за последние 24ч, обычные access-логи вырезаны.",
   "projects": [
     {
@@ -17,7 +17,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 154
+        "ms": 126
       },
       "recent_commits": [
         {
@@ -70,7 +70,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 34
+        "ms": 240
       },
       "recent_commits": [
         {
@@ -105,7 +105,9 @@
     "=== 2026-09-20T10:23:27+03:00 - nginx errors ===\n2026/09/20 10:13:43 [error] 423578#423578: *414406 access forbidden by rule, client: 5.44.42.38, server: elrenda.ru, request: \"GET /.env HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/20 10:13:47 [error] 423579#423579: *414407 access forbidden by rule, client: 5.44.42.38, server: elrenda.ru, request: \"GET /.git/config HTTP/1.1\", host: \"elrenda.ru\"",
     "=== 2026-09-20T13:55:11+03:00 - nginx errors ===\n2026/09/20 13:40:23 [error] 423579#423579: *414997 access forbidden by rule, client: 172.71.123.89, server: elrenda.ru, request: \"GET /.git/config HTTP/1.1\", host: \"elrenda.ru\"",
     "=== 2026-09-20T14:25:16+03:00 - nginx errors ===\n2026/09/20 14:19:13 [error] 423579#423579: *415091 open() \"/var/www/elrenda/apple-touch-icon-precomposed.png\" failed (2: No such file or directory), client: 178.157.152.223, server: elrenda.ru, request: \"GET /apple-touch-icon-precomposed.png HTTP/1.1\", host: \"elrenda.ru\"",
-    "=== 2026-09-20T17:57:30+03:00 - nginx errors ===\n2026/09/20 17:57:08 [error] 423578#423578: *416163 open() \"/var/www/elrenda/apple-touch-icon-precomposed.png\" failed (2: No such file or directory), client: 178.66.131.64, server: elrenda.ru, request: \"GET /apple-touch-icon-precomposed.png HTTP/1.1\", host: \"elrenda.ru\""
+    "=== 2026-09-20T17:57:30+03:00 - nginx errors ===\n2026/09/20 17:57:08 [error] 423578#423578: *416163 open() \"/var/www/elrenda/apple-touch-icon-precomposed.png\" failed (2: No such file or directory), client: 178.66.131.64, server: elrenda.ru, request: \"GET /apple-touch-icon-precomposed.png HTTP/1.1\", host: \"elrenda.ru\"",
+    "=== 2026-09-20T18:43:01+03:00 - nginx errors ===\n2026/09/20 18:28:04 [error] 423578#423578: *416223 open() \"/var/www/elrenda/apple-touch-icon.png\" failed (2: No such file or directory), client: 91.78.122.52, server: elrenda.ru, request: \"GET /apple-touch-icon.png HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/20 18:28:07 [error] 423578#423578: *416221 open() \"/var/www/elrenda/apple-touch-icon-precomposed.png\" failed (2: No such file or directory), client: 91.78.122.52, server: elrenda.ru, request: \"GET /apple-touch-icon-precomposed.png HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/20 18:36:10 [error] 423579#423579: *416304 open() \"/var/www/elrenda/apple-touch-icon-precomposed.png\" failed (2: No such file or directory), client: 178.157.152.223, server: elrenda.ru, request: \"GET /apple-touch-icon-precomposed.png HTTP/1.1\", host: \"elrenda.ru\"",
+    "=== 2026-09-20T19:59:24+03:00 - nginx errors ===\n2026/09/20 19:49:32 [error] 423579#423579: *416819 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 66.132.195.97, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/09/20 19:50:12 [error] 423579#423579: *416824 openat() \"/usr/share/nginx/html/wiki\" failed (2: No such file or directory), client: 66.132.195.97, server: 155.212.161.162, request: \"GET /wiki HTTP/1.1\", host: \"155.212.161.162:1501\""
   ],
   "existing_tasks": [
     {
