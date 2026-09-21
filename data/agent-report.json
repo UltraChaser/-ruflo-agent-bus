@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T03:00:02.208128+00:00",
+  "generated_at": "2026-09-21T05:00:02.469780+00:00",
   "note": "Только для чтения. recent_app_errors — уже отфильтровано под ошибки/исключения за последние 24ч, обычные access-логи вырезаны.",
   "projects": [
     {
@@ -17,7 +17,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 133
+        "ms": 202
       },
       "recent_commits": [
         {
@@ -70,7 +70,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 102
+        "ms": 18
       },
       "recent_commits": [
         {
@@ -111,7 +111,8 @@
     "=== 2026-09-20T20:14:36+03:00 - nginx errors ===\n2026/09/20 20:03:43 [error] 423579#423579: *416870 access forbidden by rule, client: 5.44.42.38, server: elrenda.ru, request: \"GET /api/uploads/..%2F..%2F.env HTTP/1.1\", host: \"elrenda.ru\"",
     "=== 2026-09-20T20:45:00+03:00 - nginx errors ===\n2026/09/20 20:42:47 [error] 423578#423578: *417041 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 16.5.0.238, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162\"",
     "=== 2026-09-20T21:15:01+03:00 - nginx errors ===\n2026/09/20 21:05:08 [error] 423578#423578: *417069 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 16.5.0.240, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162\"",
-    "=== 2026-09-21T00:17:41+03:00 - nginx errors ===\n2026/09/21 00:15:00 [error] 423578#423578: *417311 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 85.217.149.18, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\""
+    "=== 2026-09-21T00:17:41+03:00 - nginx errors ===\n2026/09/21 00:15:00 [error] 423578#423578: *417311 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 85.217.149.18, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"",
+    "=== 2026-09-21T06:52:50+03:00 - nginx errors ===\n2026/09/21 06:49:14 [error] 423578#423578: *418482 access forbidden by rule, client: 93.152.209.7, server: elrenda.ru, request: \"GET /.env HTTP/1.1\", host: \"elrenda.ru:443\"\n2026/09/21 06:49:14 [error] 423578#423578: *418484 access forbidden by rule, client: 93.152.209.7, server: elrenda.ru, request: \"GET /.env HTTP/1.1\", host: \"elrenda.ru\", referrer: \"http://elrenda.ru:80/.env\""
   ],
   "existing_tasks": [
     {
@@ -208,7 +209,7 @@
     },
     {
       "text": "Заполнить в web/offer.html реальные ОГРНИП и адрес — сейчас там 'указывается при публикации', публичная оферта с площадкой юридически неполна",
-      "status": "active"
+      "status": "done"
     },
     {
       "text": "Включить PRIVACY_STRICT=on в .env бэкенда, когда старых сборок мобильного приложения (без флага согласия на ПДн) не останется у пользователей",
@@ -296,11 +297,11 @@
     },
     {
       "text": "БАГ: тестер зарегистрировался как владелец и не может переключиться на райдера (кнопка 'Райдер' в профиле показывает 'Нет такой роли'). Нужно найти причину в switchRole()/провижининге роли и починить.",
-      "status": "active"
+      "status": "done"
     },
     {
       "text": "ФИЧА: отдельная регистрация владелец/райдер. Регистрация как райдер - обычная, сразу. Чтобы стать владельцем - нужно подать заявку (одобрение). Если уже зарегистрирован как владелец - переключение на райдера БЕЗ доп. регистрации/заявки (свободно).",
-      "status": "active"
+      "status": "done"
     },
     {
       "text": "Конструктор АКБ (lk.elpowerspb.ru/pack3d.html) — на мобильных (390px) обрезается по правому краю: 1) блок 1 'Габарит под сборку' — 4-колоночная строка Запас Д/В/Ш/Зазор, 4-я колонка уезжает за край; 2) блок 3 'Требования заказа' — строка Ток разряда/Ток заряда (2 колонки), правое поле обрезано; 3) б",
