@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T05:00:02.469780+00:00",
+  "generated_at": "2026-09-21T07:00:02.736276+00:00",
   "note": "Только для чтения. recent_app_errors — уже отфильтровано под ошибки/исключения за последние 24ч, обычные access-логи вырезаны.",
   "projects": [
     {
@@ -9,7 +9,7 @@
           "unit": "voltride-api.service",
           "active": "active",
           "sub": "running",
-          "since": "Sun 2026-09-20 20:11:37 MSK",
+          "since": "Mon 2026-09-21 08:25:46 MSK",
           "restarts": "0",
           "result": "success"
         }
@@ -17,7 +17,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 202
+        "ms": 149
       },
       "recent_commits": [
         {
@@ -54,7 +54,7 @@
           "unit": "elpower-api.service",
           "active": "active",
           "sub": "running",
-          "since": "Thu 2026-09-10 16:55:54 MSK",
+          "since": "Mon 2026-09-21 08:25:46 MSK",
           "restarts": "0",
           "result": "success"
         },
@@ -62,7 +62,7 @@
           "unit": "elpower-bot.service",
           "active": "active",
           "sub": "running",
-          "since": "Thu 2026-08-20 14:28:13 MSK",
+          "since": "Mon 2026-09-21 08:29:17 MSK",
           "restarts": "0",
           "result": "success"
         }
@@ -70,7 +70,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 18
+        "ms": 93
       },
       "recent_commits": [
         {
@@ -96,7 +96,9 @@
           "total": 0
         }
       },
-      "recent_app_errors": []
+      "recent_app_errors": [
+        "(node:1408313) ExperimentalWarning: SQLite is an experimental feature and might change at any time"
+      ]
     }
   ],
   "nginx_errors_tail": [
@@ -112,7 +114,9 @@
     "=== 2026-09-20T20:45:00+03:00 - nginx errors ===\n2026/09/20 20:42:47 [error] 423578#423578: *417041 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 16.5.0.238, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162\"",
     "=== 2026-09-20T21:15:01+03:00 - nginx errors ===\n2026/09/20 21:05:08 [error] 423578#423578: *417069 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 16.5.0.240, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162\"",
     "=== 2026-09-21T00:17:41+03:00 - nginx errors ===\n2026/09/21 00:15:00 [error] 423578#423578: *417311 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 85.217.149.18, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"",
-    "=== 2026-09-21T06:52:50+03:00 - nginx errors ===\n2026/09/21 06:49:14 [error] 423578#423578: *418482 access forbidden by rule, client: 93.152.209.7, server: elrenda.ru, request: \"GET /.env HTTP/1.1\", host: \"elrenda.ru:443\"\n2026/09/21 06:49:14 [error] 423578#423578: *418484 access forbidden by rule, client: 93.152.209.7, server: elrenda.ru, request: \"GET /.env HTTP/1.1\", host: \"elrenda.ru\", referrer: \"http://elrenda.ru:80/.env\""
+    "=== 2026-09-21T06:52:50+03:00 - nginx errors ===\n2026/09/21 06:49:14 [error] 423578#423578: *418482 access forbidden by rule, client: 93.152.209.7, server: elrenda.ru, request: \"GET /.env HTTP/1.1\", host: \"elrenda.ru:443\"\n2026/09/21 06:49:14 [error] 423578#423578: *418484 access forbidden by rule, client: 93.152.209.7, server: elrenda.ru, request: \"GET /.env HTTP/1.1\", host: \"elrenda.ru\", referrer: \"http://elrenda.ru:80/.env\"",
+    "=== 2026-09-21T08:08:37+03:00 - nginx errors ===\n2026/09/21 08:05:11 [error] 423579#423579: *418686 access forbidden by rule, client: 5.44.42.38, server: elrenda.ru, request: \"GET /.env HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/21 08:05:12 [error] 423579#423579: *418687 access forbidden by rule, client: 5.44.42.38, server: elrenda.ru, request: \"GET /.git/config HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/21 08:05:13 [error] 423579#423579: *418689 open() \"/var/www/elrenda/src/index.js\" failed (2: No such file or directory), client: 5.44.42.38, server: elrenda.ru, request: \"GET /src/index.js HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/21 08:05:16 [error] 423578#423578: *418695 open() \"/var/www/elrenda/server.js\" failed (2: No such file or directory), client: 5.44.42.38, server: elrenda.ru, request: \"GET /server.js HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/21 08:05:17 [error] 423578#423578: *418696 access forbidden by rule, client: 5.44.42.38, server: elrenda.ru, request: \"GET /.DS_Store HTTP/1.1\", host: \"elrenda.ru\"",
+    "=== 2026-09-21T09:38:44+03:00 - nginx errors ===\n2026/09/21 09:28:45 [error] 1429530#1429530: *65 open() \"/var/www/elrenda/js/css/bundle.css\" failed (2: No such file or directory), client: 74.7.243.196, server: elrenda.ru, request: \"GET /js/css/bundle.css?v=0.9.197 HTTP/1.1\", host: \"elrenda.ru\", referrer: \"https://elrenda.ru/js/$%7Besc(supportUrl)%7D\""
   ],
   "existing_tasks": [
     {
