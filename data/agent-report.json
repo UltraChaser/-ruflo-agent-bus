@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T13:00:02.703060+00:00",
+  "generated_at": "2026-09-21T15:00:02.876554+00:00",
   "note": "Только для чтения. recent_app_errors — уже отфильтровано под ошибки/исключения за последние 24ч, обычные access-логи вырезаны.",
   "projects": [
     {
@@ -9,7 +9,7 @@
           "unit": "voltride-api.service",
           "active": "active",
           "sub": "running",
-          "since": "Mon 2026-09-21 08:25:46 MSK",
+          "since": "Mon 2026-09-21 16:16:20 MSK",
           "restarts": "0",
           "result": "success"
         }
@@ -17,7 +17,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 113
+        "ms": 105
       },
       "recent_commits": [
         {
@@ -43,9 +43,7 @@
           "total": 0
         }
       },
-      "recent_app_errors": [
-        "[email] не отправилось на elrenda.ru@yandex.ru — Invalid login: 535 5.7.8 Error: authentication failed: This user does not have access rights to this service 1789912238-coZjHXQc1Gk0"
-      ]
+      "recent_app_errors": []
     },
     {
       "name": "El-Power",
@@ -70,7 +68,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 43
+        "ms": 29
       },
       "recent_commits": [
         {
@@ -309,6 +307,14 @@
     },
     {
       "text": "Конструктор АКБ (lk.elpowerspb.ru/pack3d.html) — на мобильных (390px) обрезается по правому краю: 1) блок 1 'Габарит под сборку' — 4-колоночная строка Запас Д/В/Ш/Зазор, 4-я колонка уезжает за край; 2) блок 3 'Требования заказа' — строка Ток разряда/Ток заряда (2 колонки), правое поле обрезано; 3) б",
+      "status": "active"
+    },
+    {
+      "text": "Включить Telegram-уведомления elrenda: выполнить на сервере bash /root/enable-telegram.sh (кладёт токен и секрет в .env, перезапускает бота и API). Код и бот уже выкачены (0.9.195/0.9.198), без этого шага кнопка «Подключить Telegram» в профиле не появится",
+      "status": "active"
+    },
+    {
+      "text": "Автодоговор аренды: сборка печатной формы из данных аренды (замена загрузки скана). Дизайн продуман, ждёт решения по шаблону и юр. проверке текста",
       "status": "active"
     }
   ]
