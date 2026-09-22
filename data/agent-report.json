@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T23:00:02.872139+00:00",
+  "generated_at": "2026-09-22T01:00:03.537224+00:00",
   "note": "Только для чтения. recent_app_errors — уже отфильтровано под ошибки/исключения за последние 24ч, обычные access-логи вырезаны.",
   "projects": [
     {
@@ -17,7 +17,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 89
+        "ms": 521
       },
       "recent_commits": [
         {
@@ -68,7 +68,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 42
+        "ms": 254
       },
       "recent_commits": [
         {
