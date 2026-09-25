@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T21:00:03.483940+00:00",
+  "generated_at": "2026-09-25T23:00:02.752290+00:00",
   "note": "Только для чтения. recent_app_errors — уже отфильтровано под ошибки/исключения за последние 24ч, обычные access-логи вырезаны.",
   "projects": [
     {
@@ -17,7 +17,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 101
+        "ms": 278
       },
       "recent_commits": [
         {
@@ -68,7 +68,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 78
+        "ms": 52
       },
       "recent_commits": [
         {
@@ -106,7 +106,6 @@
     }
   ],
   "nginx_errors_tail": [
-    "=== 2026-09-23T22:14:28+03:00 - nginx errors ===\n2026/09/23 22:06:08 [error] 1646224#1646224: *1848 open() \"/var/www/elrenda/apple-touch-icon-precomposed.png\" failed (2: No such file or directory), client: 188.243.183.223, server: elrenda.ru, request: \"GET /apple-touch-icon-precomposed.png HTTP/1.1\", host: \"elrenda.ru\"",
     "=== 2026-09-23T23:29:38+03:00 - nginx errors ===\n2026/09/23 23:21:12 [error] 1646225#1646225: *1959 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 66.132.186.183, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/09/23 23:22:03 [error] 1646224#1646224: *1964 openat() \"/usr/share/nginx/html/robots.txt\" failed (2: No such file or directory), client: 66.132.186.183, server: 155.212.161.162, request: \"GET /robots.txt HTTP/1.1\", host: \"155.212.161.162:1501\"",
     "=== 2026-09-24T02:59:58+03:00 - nginx errors ===\n2026/09/24 02:57:34 [error] 1646225#1646225: *2709 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 85.217.149.41, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"",
     "=== 2026-09-24T04:30:01+03:00 - nginx errors ===\n2026/09/24 04:15:03 [error] 1646225#1646225: *2908 open() \"/var/www/elrenda/js/css/bundle.css\" failed (2: No such file or directory), client: 74.7.242.43, server: elrenda.ru, request: \"GET /js/css/bundle.css?v=0.9.199 HTTP/1.1\", host: \"elrenda.ru\", referrer: \"https://elrenda.ru/js/'%20+%20E(printUrl)%20+%20'\"",
@@ -120,7 +119,8 @@
     "=== 2026-09-25T11:32:55+03:00 - nginx errors ===\n2026/09/25 11:29:54 [error] 1646224#1646224: *7062 access forbidden by rule, client: 149.56.160.210, server: elrenda.ru, request: \"GET /.well-known/ucp HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/25 11:29:55 [error] 1646224#1646224: *7062 access forbidden by rule, client: 149.56.160.210, server: elrenda.ru, request: \"GET /.well-known/security.txt HTTP/1.1\", host: \"elrenda.ru\"",
     "=== 2026-09-25T14:03:13+03:00 - nginx errors ===\n2026/09/25 13:58:06 [error] 1646225#1646225: *7311 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 66.132.195.84, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/09/25 13:59:15 [error] 1646225#1646225: *7319 openat() \"/usr/share/nginx/html/security.txt\" failed (2: No such file or directory), client: 66.132.195.84, server: 155.212.161.162, request: \"GET /security.txt HTTP/1.1\", host: \"155.212.161.162:1501\"",
     "=== 2026-09-25T17:03:23+03:00 - nginx errors ===\n2026/09/25 16:50:08 [error] 1646225#1646225: *8583 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 66.132.195.111, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/09/25 16:50:33 [error] 1646224#1646224: *8613 openat() \"/usr/share/nginx/html/sellers.json\" failed (2: No such file or directory), client: 66.132.195.111, server: 155.212.161.162, request: \"GET /sellers.json HTTP/1.1\", host: \"155.212.161.162:1501\"",
-    "=== 2026-09-25T20:33:37+03:00 - nginx errors ===\n2026/09/25 20:29:45 [error] 1646224#1646224: *9511 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 66.132.186.170, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/09/25 20:31:03 [error] 1646224#1646224: *9521 openat() \"/usr/share/nginx/html/robots.txt\" failed (2: No such file or directory), client: 66.132.186.170, server: 155.212.161.162, request: \"GET /robots.txt HTTP/1.1\", host: \"155.212.161.162:1501\""
+    "=== 2026-09-25T20:33:37+03:00 - nginx errors ===\n2026/09/25 20:29:45 [error] 1646224#1646224: *9511 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 66.132.186.170, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/09/25 20:31:03 [error] 1646224#1646224: *9521 openat() \"/usr/share/nginx/html/robots.txt\" failed (2: No such file or directory), client: 66.132.186.170, server: 155.212.161.162, request: \"GET /robots.txt HTTP/1.1\", host: \"155.212.161.162:1501\"",
+    "=== 2026-09-26T00:18:57+03:00 - nginx errors ===\n2026/09/26 00:11:41 [error] 1646224#1646224: *10001 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 66.132.195.70, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/09/26 00:12:12 [error] 1646225#1646225: *10006 openat() \"/usr/share/nginx/html/sitemap.xml\" failed (2: No such file or directory), client: 66.132.195.70, server: 155.212.161.162, request: \"GET /sitemap.xml HTTP/1.1\", host: \"155.212.161.162:1501\""
   ],
   "existing_tasks": [
     {
