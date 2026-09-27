@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T03:00:02.437772+00:00",
+  "generated_at": "2026-09-27T05:00:02.404296+00:00",
   "note": "Только для чтения. recent_app_errors — уже отфильтровано под ошибки/исключения за последние 24ч, обычные access-логи вырезаны.",
   "projects": [
     {
@@ -17,7 +17,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 120
+        "ms": 179
       },
       "recent_commits": [
         {
@@ -68,7 +68,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 100
+        "ms": 46
       },
       "recent_commits": [
         {
@@ -98,7 +98,10 @@
     }
   ],
   "nginx_errors_tail": [
-    "=== 2026-09-27T02:51:19+03:00 - nginx errors ===\n2026/09/27 02:47:41 [error] 1986623#1986623: *2445 access forbidden by rule, client: 172.68.213.242, server: elrenda.ru, request: \"GET /.git/config HTTP/1.1\", host: \"elrenda.ru\""
+    "=== 2026-09-27T02:51:19+03:00 - nginx errors ===\n2026/09/27 02:47:41 [error] 1986623#1986623: *2445 access forbidden by rule, client: 172.68.213.242, server: elrenda.ru, request: \"GET /.git/config HTTP/1.1\", host: \"elrenda.ru\"",
+    "=== 2026-09-27T06:06:38+03:00 - nginx errors ===\n2026/09/27 06:03:54 [error] 1986624#1986624: *2807 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 85.217.149.57, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"",
+    "=== 2026-09-27T06:21:40+03:00 - nginx errors ===\n2026/09/27 06:10:18 [error] 1986624#1986624: *2837 open() \"/var/www/elrenda/apple-touch-icon-precomposed.png\" failed (2: No such file or directory), client: 178.157.164.63, server: elrenda.ru, request: \"GET /apple-touch-icon-precomposed.png HTTP/1.1\", host: \"elrenda.ru\"",
+    "=== 2026-09-27T07:21:43+03:00 - nginx errors ===\n2026/09/27 07:09:16 [error] 1986623#1986623: *2950 access forbidden by rule, client: 94.237.73.134, server: elrenda.ru, request: \"GET /.vscode/sftp.json HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/27 07:09:17 [error] 1986623#1986623: *2952 access forbidden by rule, client: 94.237.73.134, server: elrenda.ru, request: \"GET /.vscode/ftp-config.json HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/27 07:09:18 [error] 1986623#1986623: *2954 access forbidden by rule, client: 94.237.73.134, server: elrenda.ru, request: \"GET /.vscode/ftp-sync.json HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/27 07:09:19 [error] 1986624#1986624: *2956 access forbidden by rule, client: 94.237.73.134, server: elrenda.ru, request: \"GET /.sftp-config.json HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/27 07:09:21 [error] 1986624#1986624: *2960 access forbidden by rule, client: 94.237.73.134, server: elrenda.ru, request: \"GET /.ftp-sync.json HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/27 07:09:23 [error] 1986624#1986624: *2964 access forbidden by rule, client: 94.237.73.134, server: elrenda.ru, request: \"GET /.ftp-config.json HTTP/1.1\", host: \"elrenda.ru\""
   ],
   "existing_tasks": [
     {
