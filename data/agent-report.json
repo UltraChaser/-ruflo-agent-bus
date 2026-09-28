@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T13:00:03.182477+00:00",
+  "generated_at": "2026-09-28T15:00:02.518228+00:00",
   "note": "Только для чтения. recent_app_errors — уже отфильтровано под ошибки/исключения за последние 24ч, обычные access-логи вырезаны.",
   "projects": [
     {
@@ -17,7 +17,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 288
+        "ms": 85
       },
       "recent_commits": [
         {
@@ -68,7 +68,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 136
+        "ms": 41
       },
       "recent_commits": [
         {
@@ -106,7 +106,8 @@
     "=== 2026-09-27T15:37:32+03:00 - nginx errors ===\n2026/09/27 15:34:42 [error] 1986624#1986624: *4026 open() \"/var/www/elrenda/apple-touch-icon-precomposed.png\" failed (2: No such file or directory), client: 91.78.131.163, server: elrenda.ru, request: \"GET /apple-touch-icon-precomposed.png HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/27 15:34:48 [error] 1986623#1986623: *4029 open() \"/var/www/elrenda/apple-touch-icon.png\" failed (2: No such file or directory), client: 91.78.131.163, server: elrenda.ru, request: \"GET /apple-touch-icon.png HTTP/1.1\", host: \"elrenda.ru\"",
     "=== 2026-09-28T01:53:31+03:00 - nginx errors ===\n2026/09/28 01:52:19 [error] 1986624#1986624: *4872 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 66.132.186.192, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/09/28 01:53:22 [error] 1986623#1986623: *4877 openat() \"/usr/share/nginx/html/app-ads.txt\" failed (2: No such file or directory), client: 66.132.186.192, server: 155.212.161.162, request: \"GET /app-ads.txt HTTP/1.1\", host: \"155.212.161.162:1501\"",
     "=== 2026-09-28T06:38:52+03:00 - nginx errors ===\n2026/09/28 06:29:23 [error] 1986623#1986623: *7618 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 85.217.149.10, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"",
-    "=== 2026-09-28T13:54:31+03:00 - nginx errors ===\n2026/09/28 13:48:51 [error] 1986624#1986624: *8414 access forbidden by rule, client: 94.154.43.180, server: elrenda.ru, request: \"GET /.env HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/28 13:53:52 [error] 1986624#1986624: *8425 access forbidden by rule, client: 158.46.160.175, server: elrenda.ru, request: \"GET /.git/HEAD HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/28 13:53:52 [error] 1986624#1986624: *8426 access forbidden by rule, client: 185.55.6.157, server: elrenda.ru, request: \"GET /.git/HEAD HTTP/1.1\", host: \"elrenda.ru\""
+    "=== 2026-09-28T13:54:31+03:00 - nginx errors ===\n2026/09/28 13:48:51 [error] 1986624#1986624: *8414 access forbidden by rule, client: 94.154.43.180, server: elrenda.ru, request: \"GET /.env HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/28 13:53:52 [error] 1986624#1986624: *8425 access forbidden by rule, client: 158.46.160.175, server: elrenda.ru, request: \"GET /.git/HEAD HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/28 13:53:52 [error] 1986624#1986624: *8426 access forbidden by rule, client: 185.55.6.157, server: elrenda.ru, request: \"GET /.git/HEAD HTTP/1.1\", host: \"elrenda.ru\"",
+    "=== 2026-09-28T17:39:47+03:00 - nginx errors ===\n2026/09/28 17:33:23 [error] 1986623#1986623: *8615 open() \"/var/www/elrenda/apple-touch-icon-precomposed.png\" failed (2: No such file or directory), client: 178.157.152.251, server: elrenda.ru, request: \"GET /apple-touch-icon-precomposed.png HTTP/1.1\", host: \"elrenda.ru\""
   ],
   "existing_tasks": [
     {
