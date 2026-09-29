@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T19:00:02.171902+00:00",
+  "generated_at": "2026-09-29T21:00:03.401793+00:00",
   "note": "Только для чтения. recent_app_errors — уже отфильтровано под ошибки/исключения за последние 24ч, обычные access-логи вырезаны.",
   "projects": [
     {
@@ -17,7 +17,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 99
+        "ms": 212
       },
       "recent_commits": [
         {
@@ -52,7 +52,7 @@
           "unit": "elpower-api.service",
           "active": "active",
           "sub": "running",
-          "since": "Fri 2026-09-25 16:22:41 MSK",
+          "since": "Tue 2026-09-29 22:39:26 MSK",
           "restarts": "0",
           "result": "success"
         },
@@ -60,7 +60,7 @@
           "unit": "elpower-bot.service",
           "active": "active",
           "sub": "running",
-          "since": "Sat 2026-09-26 06:34:28 MSK",
+          "since": "Tue 2026-09-29 22:39:41 MSK",
           "restarts": "0",
           "result": "success"
         }
@@ -68,7 +68,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 95
+        "ms": 49
       },
       "recent_commits": [
         {
@@ -95,6 +95,9 @@
         }
       },
       "recent_app_errors": [
+        "(node:2397068) ExperimentalWarning: SQLite is an experimental feature and might change at any time",
+        "(node:2398998) ExperimentalWarning: SQLite is an experimental feature and might change at any time",
+        "(node:2400326) ExperimentalWarning: SQLite is an experimental feature and might change at any time",
         "2026-09-29 05:06:55 [WARNING] tg curl-fail getWebhookInfo try 1: curl: (35) OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to api.telegram.org:443",
         "2026-09-29 05:07:06 [WARNING] tg curl-fail getWebhookInfo try 2: curl: (35) OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to api.telegram.org:443",
         "2026-09-29 05:07:19 [WARNING] tg curl-fail getWebhookInfo try 3: curl: (35) OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to api.telegram.org:443",
@@ -103,7 +106,6 @@
     }
   ],
   "nginx_errors_tail": [
-    "=== 2026-09-28T01:53:31+03:00 - nginx errors ===\n2026/09/28 01:52:19 [error] 1986624#1986624: *4872 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 66.132.186.192, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/09/28 01:53:22 [error] 1986623#1986623: *4877 openat() \"/usr/share/nginx/html/app-ads.txt\" failed (2: No such file or directory), client: 66.132.186.192, server: 155.212.161.162, request: \"GET /app-ads.txt HTTP/1.1\", host: \"155.212.161.162:1501\"",
     "=== 2026-09-28T06:38:52+03:00 - nginx errors ===\n2026/09/28 06:29:23 [error] 1986623#1986623: *7618 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 85.217.149.10, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"",
     "=== 2026-09-28T13:54:31+03:00 - nginx errors ===\n2026/09/28 13:48:51 [error] 1986624#1986624: *8414 access forbidden by rule, client: 94.154.43.180, server: elrenda.ru, request: \"GET /.env HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/28 13:53:52 [error] 1986624#1986624: *8425 access forbidden by rule, client: 158.46.160.175, server: elrenda.ru, request: \"GET /.git/HEAD HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/28 13:53:52 [error] 1986624#1986624: *8426 access forbidden by rule, client: 185.55.6.157, server: elrenda.ru, request: \"GET /.git/HEAD HTTP/1.1\", host: \"elrenda.ru\"",
     "=== 2026-09-28T17:39:47+03:00 - nginx errors ===\n2026/09/28 17:33:23 [error] 1986623#1986623: *8615 open() \"/var/www/elrenda/apple-touch-icon-precomposed.png\" failed (2: No such file or directory), client: 178.157.152.251, server: elrenda.ru, request: \"GET /apple-touch-icon-precomposed.png HTTP/1.1\", host: \"elrenda.ru\"",
@@ -117,7 +119,8 @@
     "=== 2026-09-29T09:11:10+03:00 - nginx errors ===\n2026/09/29 09:06:01 [error] 2275986#2275986: *16637 access forbidden by rule, client: 45.148.10.120, server: elrenda.ru, request: \"GET /.git/config HTTP/1.1\", host: \"elrenda.ru\"",
     "=== 2026-09-29T11:26:26+03:00 - nginx errors ===\n2026/09/29 11:13:26 [error] 2275986#2275986: *17225 access forbidden by rule, client: 144.172.97.202, server: elrenda.ru, request: \"GET /.git/config HTTP/1.1\", host: \"elrenda.ru\", referrer: \"http://elrenda.ru/.git/config\"",
     "=== 2026-09-29T12:11:30+03:00 - nginx errors ===\n2026/09/29 12:02:31 [error] 2275986#2275986: *17283 access forbidden by rule, client: 45.138.12.10, server: elrenda.ru, request: \"GET /.git/HEAD HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/29 12:02:32 [error] 2275986#2275986: *17283 access forbidden by rule, client: 45.138.12.10, server: elrenda.ru, request: \"GET /.env.anthropic HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/29 12:02:32 [error] 2275986#2275986: *17283 access forbidden by rule, client: 45.138.12.10, server: elrenda.ru, request: \"GET /.env.aws HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/29 12:02:32 [error] 2275986#2275986: *17283 access forbidden by rule, client: 45.138.12.10, server: elrenda.ru, request: \"GET /.env.aws.local HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/29 12:02:32 [error] 2275986#2275986: *17283 access forbidden by rule, client: 45.138.12.10, server: elrenda.ru, request: \"GET /.env.ai HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/29 12:02:32 [error] 2275986#2275986: *17283 access forbidden by rule, client: 45.138.12.10, server: elrenda.ru, request: \"GET /.env.openai HTTP/1.1\", host: \"elrenda.ru\"\n2026/09/29 12:02:32 [error] 2275986#2275986: *17283 access forbidden by rule, client: 45.138.12.10, server: elrenda.ru, request: \"GET /.env.openai.local HTTP/1.1\", host: \"elrenda.ru\"",
-    "=== 2026-09-29T12:56:33+03:00 - nginx errors ===\n2026/09/29 12:54:48 [error] 2275986#2275986: *17354 access forbidden by rule, client: 66.102.9.165, server: elrenda.ru, request: \"GET /.well-known/traffic-advice HTTP/1.1\", host: \"elrenda.ru\""
+    "=== 2026-09-29T12:56:33+03:00 - nginx errors ===\n2026/09/29 12:54:48 [error] 2275986#2275986: *17354 access forbidden by rule, client: 66.102.9.165, server: elrenda.ru, request: \"GET /.well-known/traffic-advice HTTP/1.1\", host: \"elrenda.ru\"",
+    "=== 2026-09-29T22:42:27+03:00 - nginx errors ===\n2026/09/29 22:30:36 [error] 2275985#2275985: *20623 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 154.16.44.58, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/09/29 22:30:36 [error] 2275985#2275985: *20624 openat() \"/usr/share/nginx/html/mcp\" failed (2: No such file or directory), client: 45.133.173.175, server: 155.212.161.162, request: \"GET /mcp HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/09/29 22:30:36 [error] 2275986#2275986: *20627 openat() \"/usr/share/nginx/html/api/mcp\" failed (2: No such file or directory), client: 154.16.44.249, server: 155.212.161.162, request: \"GET /api/mcp HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/09/29 22:30:36 [error] 2275985#2275985: *20626 \"/usr/share/nginx/html/mcp/index.html\" is not found (2: No such file or directory), client: 2.57.17.82, server: 155.212.161.162, request: \"GET /mcp/ HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/09/29 22:30:36 [error] 2275985#2275985: *20628 openat() \"/usr/share/nginx/html/sse\" failed (2: No such file or directory), client: 154.16.44.2, server: 155.212.161.162, request: \"GET /sse HTTP/1.1\", host: \"155.212.161.162:1501\""
   ],
   "existing_tasks": [
     {
