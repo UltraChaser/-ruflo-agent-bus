@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T01:00:02.721592+00:00",
+  "generated_at": "2026-09-30T03:00:02.754093+00:00",
   "note": "Только для чтения. recent_app_errors — уже отфильтровано под ошибки/исключения за последние 24ч, обычные access-логи вырезаны.",
   "projects": [
     {
@@ -17,7 +17,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 264
+        "ms": 137
       },
       "recent_commits": [
         {
@@ -68,7 +68,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 138
+        "ms": 88
       },
       "recent_commits": [
         {
@@ -97,11 +97,7 @@
       "recent_app_errors": [
         "(node:2397068) ExperimentalWarning: SQLite is an experimental feature and might change at any time",
         "(node:2398998) ExperimentalWarning: SQLite is an experimental feature and might change at any time",
-        "(node:2400326) ExperimentalWarning: SQLite is an experimental feature and might change at any time",
-        "2026-09-29 05:06:55 [WARNING] tg curl-fail getWebhookInfo try 1: curl: (35) OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to api.telegram.org:443",
-        "2026-09-29 05:07:06 [WARNING] tg curl-fail getWebhookInfo try 2: curl: (35) OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to api.telegram.org:443",
-        "2026-09-29 05:07:19 [WARNING] tg curl-fail getWebhookInfo try 3: curl: (35) OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to api.telegram.org:443",
-        "2026-09-29 05:07:23 [ERROR] whinfo failed (1): Command '['curl', '--config', '-']' returned non-zero exit status 35."
+        "(node:2400326) ExperimentalWarning: SQLite is an experimental feature and might change at any time"
       ]
     }
   ],
