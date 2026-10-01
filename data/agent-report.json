@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T13:00:02.560491+00:00",
+  "generated_at": "2026-10-01T15:00:02.957064+00:00",
   "note": "Только для чтения. recent_app_errors — уже отфильтровано под ошибки/исключения за последние 24ч, обычные access-логи вырезаны.",
   "projects": [
     {
@@ -17,7 +17,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 193
+        "ms": 142
       },
       "recent_commits": [
         {
@@ -73,7 +73,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 108
+        "ms": 152
       },
       "recent_commits": [
         {
@@ -103,7 +103,6 @@
     }
   ],
   "nginx_errors_tail": [
-    "=== 2026-09-30T03:12:51+03:00 - nginx errors ===\n2026/09/30 03:04:24 [error] 2275985#2275985: *20995 access forbidden by rule, client: 198.211.97.206, server: elrenda.ru, request: \"GET /.git/config HTTP/1.1\", host: \"elrenda.ru\"",
     "=== 2026-09-30T03:57:59+03:00 - nginx errors ===\n2026/09/30 03:57:31 [error] 2275986#2275986: *21053 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 66.132.224.84, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/09/30 03:57:53 [error] 2275986#2275986: *21058 openat() \"/usr/share/nginx/html/ai/site-profile.json\" failed (2: No such file or directory), client: 66.132.224.84, server: 155.212.161.162, request: \"GET /ai/site-profile.json HTTP/1.1\", host: \"155.212.161.162:1501\"",
     "=== 2026-09-30T07:43:11+03:00 - nginx errors ===\n2026/09/30 07:37:18 [error] 2275986#2275986: *21380 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 85.217.149.6, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"",
     "=== 2026-09-30T09:58:23+03:00 - nginx errors ===\n2026/09/30 09:55:25 [error] 2275986#2275986: *21646 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 151.243.11.188, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"",
@@ -117,7 +116,8 @@
     "=== 2026-10-01T11:45:37+03:00 - systemd errors (since 2026-10-01T11:30:35+03:00) ===\n2026-10-01T11:32:18+03:00 sashkasaratov64.fvds.ru node[1545198]:   TypeError: undefined is not an object (evaluating 'r[\"@context\"].toLowerCase')",
     "=== 2026-10-01T11:45:37+03:00 - nginx errors ===\n2026/10/01 11:30:53 [error] 2562634#2562634: *858 access forbidden by rule, client: 217.177.33.191, server: elrenda.ru, request: \"GET /.well-known/passkey-endpoints HTTP/1.1\", host: \"elrenda.ru\"",
     "=== 2026-10-01T13:30:53+03:00 - nginx errors ===\n2026/10/01 13:30:28 [error] 2562633#2562633: *1061 user \"sasha\" was not found in \"/etc/nginx/elrenda.htpasswd\", client: 5.44.42.38, server: elrenda.ru, request: \"GET /admin.html HTTP/1.1\", host: \"elrenda.ru\", referrer: \"https://elrenda.ru/\"",
-    "=== 2026-10-01T15:46:04+03:00 - systemd errors (since 2026-10-01T15:31:04+03:00) ===\n2026-10-01T15:34:43+03:00 sashkasaratov64.fvds.ru node[2610045]:   TypeError: undefined is not an object (evaluating 'r[\"@context\"].toLowerCase')"
+    "=== 2026-10-01T15:46:04+03:00 - systemd errors (since 2026-10-01T15:31:04+03:00) ===\n2026-10-01T15:34:43+03:00 sashkasaratov64.fvds.ru node[2610045]:   TypeError: undefined is not an object (evaluating 'r[\"@context\"].toLowerCase')",
+    "=== 2026-10-01T16:01:05+03:00 - nginx errors ===\n2026/10/01 15:56:24 [error] 2609174#2609174: *3026 upstream prematurely closed connection while reading upstream, client: 217.177.33.191, server: elrenda.ru, request: \"GET /api/events/stream HTTP/1.1\", upstream: \"http://127.0.0.1:3001/api/events/stream\", host: \"elrenda.ru\", referrer: \"https://elrenda.ru/\"\n2026/10/01 15:56:24 [error] 2609175#2609175: *3064 upstream prematurely closed connection while reading upstream, client: 91.79.0.50, server: elrenda.ru, request: \"GET /api/events/stream HTTP/1.1\", upstream: \"http://127.0.0.1:3001/api/events/stream\", host: \"elrenda.ru\", referrer: \"https://elrenda.ru/\""
   ],
   "existing_tasks": [
     {
