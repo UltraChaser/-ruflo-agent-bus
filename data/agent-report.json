@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T19:00:03.043077+00:00",
+  "generated_at": "2026-10-02T21:00:03.605977+00:00",
   "note": "Только для чтения. recent_app_errors — уже отфильтровано под ошибки/исключения за последние 24ч, обычные access-логи вырезаны.",
   "projects": [
     {
@@ -9,7 +9,7 @@
           "unit": "voltride-api.service",
           "active": "active",
           "sub": "running",
-          "since": "Fri 2026-10-02 18:38:48 MSK",
+          "since": "Fri 2026-10-02 22:36:46 MSK",
           "restarts": "0",
           "result": "success"
         }
@@ -17,7 +17,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 97
+        "ms": 195
       },
       "recent_commits": [
         {
@@ -64,7 +64,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 74
+        "ms": 119
       },
       "recent_commits": [
         {
@@ -94,7 +94,6 @@
     }
   ],
   "nginx_errors_tail": [
-    "=== 2026-10-01T13:30:53+03:00 - nginx errors ===\n2026/10/01 13:30:28 [error] 2562633#2562633: *1061 user \"sasha\" was not found in \"/etc/nginx/elrenda.htpasswd\", client: 5.44.42.38, server: elrenda.ru, request: \"GET /admin.html HTTP/1.1\", host: \"elrenda.ru\", referrer: \"https://elrenda.ru/\"",
     "=== 2026-10-01T15:46:04+03:00 - systemd errors (since 2026-10-01T15:31:04+03:00) ===\n2026-10-01T15:34:43+03:00 sashkasaratov64.fvds.ru node[2610045]:   TypeError: undefined is not an object (evaluating 'r[\"@context\"].toLowerCase')",
     "=== 2026-10-01T16:01:05+03:00 - nginx errors ===\n2026/10/01 15:56:24 [error] 2609174#2609174: *3026 upstream prematurely closed connection while reading upstream, client: 217.177.33.191, server: elrenda.ru, request: \"GET /api/events/stream HTTP/1.1\", upstream: \"http://127.0.0.1:3001/api/events/stream\", host: \"elrenda.ru\", referrer: \"https://elrenda.ru/\"\n2026/10/01 15:56:24 [error] 2609175#2609175: *3064 upstream prematurely closed connection while reading upstream, client: 91.79.0.50, server: elrenda.ru, request: \"GET /api/events/stream HTTP/1.1\", upstream: \"http://127.0.0.1:3001/api/events/stream\", host: \"elrenda.ru\", referrer: \"https://elrenda.ru/\"",
     "=== 2026-10-01T19:16:25+03:00 - nginx errors ===\n2026/10/01 19:12:40 [error] 2609175#2609175: *4114 upstream prematurely closed connection while reading upstream, client: 91.79.0.116, server: elrenda.ru, request: \"GET /api/events/stream HTTP/1.1\", upstream: \"http://127.0.0.1:3001/api/events/stream\", host: \"elrenda.ru\", referrer: \"https://elrenda.ru/\"",
@@ -108,7 +107,8 @@
     "=== 2026-10-02T14:03:00+03:00 - nginx errors ===\n2026/10/02 14:02:06 [error] 2609174#2609174: *7023 upstream prematurely closed connection while reading upstream, client: 5.44.42.38, server: elrenda.ru, request: \"GET /api/events/stream HTTP/1.1\", upstream: \"http://127.0.0.1:3001/api/events/stream\", host: \"elrenda.ru\", referrer: \"https://elrenda.ru/bike/57\"",
     "=== 2026-10-02T16:48:10+03:00 - nginx errors ===\n2026/10/02 16:39:05 [error] 2609175#2609175: *8089 access forbidden by rule, client: 34.80.85.245, server: elrenda.ru, request: \"GET /.git/config HTTP/1.1\", host: \"elrenda.ru\"",
     "=== 2026-10-02T17:33:15+03:00 - nginx errors ===\n2026/10/02 17:27:40 [error] 2609175#2609175: *8216 access forbidden by rule, client: 91.92.240.86, server: elrenda.ru, request: \"GET /.git/HEAD HTTP/1.1\", host: \"elrenda.ru\"",
-    "=== 2026-10-02T21:48:40+03:00 - nginx errors ===\n2026/10/02 21:45:12 [error] 2609174#2609174: *8868 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 2.57.17.249, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/10/02 21:45:13 [error] 2609175#2609175: *8869 openat() \"/usr/share/nginx/html/mcp\" failed (2: No such file or directory), client: 2.57.17.23, server: 155.212.161.162, request: \"GET /mcp HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/10/02 21:45:13 [error] 2609174#2609174: *8871 \"/usr/share/nginx/html/mcp/index.html\" is not found (2: No such file or directory), client: 154.16.44.185, server: 155.212.161.162, request: \"GET /mcp/ HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/10/02 21:45:13 [error] 2609175#2609175: *8870 openat() \"/usr/share/nginx/html/api/mcp\" failed (2: No such file or directory), client: 2.57.17.237, server: 155.212.161.162, request: \"GET /api/mcp HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/10/02 21:45:14 [error] 2609174#2609174: *8873 openat() \"/usr/share/nginx/html/sse\" failed (2: No such file or directory), client: 2.57.17.163, server: 155.212.161.162, request: \"GET /sse HTTP/1.1\", host: \"155.212.161.162:1501\""
+    "=== 2026-10-02T21:48:40+03:00 - nginx errors ===\n2026/10/02 21:45:12 [error] 2609174#2609174: *8868 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 2.57.17.249, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/10/02 21:45:13 [error] 2609175#2609175: *8869 openat() \"/usr/share/nginx/html/mcp\" failed (2: No such file or directory), client: 2.57.17.23, server: 155.212.161.162, request: \"GET /mcp HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/10/02 21:45:13 [error] 2609174#2609174: *8871 \"/usr/share/nginx/html/mcp/index.html\" is not found (2: No such file or directory), client: 154.16.44.185, server: 155.212.161.162, request: \"GET /mcp/ HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/10/02 21:45:13 [error] 2609175#2609175: *8870 openat() \"/usr/share/nginx/html/api/mcp\" failed (2: No such file or directory), client: 2.57.17.237, server: 155.212.161.162, request: \"GET /api/mcp HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/10/02 21:45:14 [error] 2609174#2609174: *8873 openat() \"/usr/share/nginx/html/sse\" failed (2: No such file or directory), client: 2.57.17.163, server: 155.212.161.162, request: \"GET /sse HTTP/1.1\", host: \"155.212.161.162:1501\"",
+    "=== 2026-10-02T22:48:44+03:00 - nginx errors ===\n2026/10/02 22:36:46 [error] 2609174#2609174: *8836 upstream prematurely closed connection while reading upstream, client: 5.44.42.38, server: elrenda.ru, request: \"GET /api/events/stream HTTP/1.1\", upstream: \"http://127.0.0.1:3001/api/events/stream\", host: \"elrenda.ru\", referrer: \"https://elrenda.ru/\""
   ],
   "existing_tasks": [
     {
