@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T03:00:02.590138+00:00",
+  "generated_at": "2026-10-05T05:00:02.478272+00:00",
   "note": "Только для чтения. recent_app_errors — уже отфильтровано под ошибки/исключения за последние 24ч, обычные access-логи вырезаны.",
   "projects": [
     {
@@ -17,7 +17,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 186
+        "ms": 136
       },
       "recent_commits": [
         {
@@ -64,7 +64,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 74
+        "ms": 149
       },
       "recent_commits": [
         {
@@ -94,7 +94,6 @@
     }
   ],
   "nginx_errors_tail": [
-    "=== 2026-10-04T19:52:55+03:00 - nginx errors ===\n2026/10/04 19:39:02 [error] 2816174#2816174: *10498 access forbidden by rule, client: 103.227.62.246, server: elrenda.ru, request: \"GET /.env HTTP/1.1\", host: \"elrenda.ru\"\n2026/10/04 19:50:36 [error] 2816174#2816174: *10517 access forbidden by rule, client: 103.227.62.246, server: elrenda.ru, request: \"GET /backend/.env HTTP/1.1\", host: \"elrenda.ru\"",
     "=== 2026-10-04T20:07:55+03:00 - nginx errors ===\n2026/10/04 19:56:03 [error] 2816175#2816175: *10534 access forbidden by rule, client: 34.42.106.150, server: elrenda.ru, request: \"GET /.git/config HTTP/1.1\", host: \"elrenda.ru\"\n2026/10/04 20:04:47 [error] 2816175#2816175: *10560 access forbidden by rule, client: 103.227.62.246, server: elrenda.ru, request: \"GET /core/.env HTTP/1.1\", host: \"elrenda.ru\"",
     "=== 2026-10-04T20:37:59+03:00 - nginx errors ===\n2026/10/04 20:24:00 [error] 2816174#2816174: *10596 open() \"/var/www/elrenda/main.js\" failed (2: No such file or directory), client: 103.227.62.246, server: elrenda.ru, request: \"GET /main.js HTTP/1.1\", host: \"elrenda.ru\"\n2026/10/04 20:27:00 [error] 2816174#2816174: *10597 open() \"/var/www/elrenda/app.js\" failed (2: No such file or directory), client: 103.227.62.246, server: elrenda.ru, request: \"GET /app.js HTTP/1.1\", host: \"elrenda.ru\"",
     "=== 2026-10-04T20:52:59+03:00 - nginx errors ===\n2026/10/04 20:40:03 [error] 2816174#2816174: *10608 open() \"/var/www/elrenda/config.js\" failed (2: No such file or directory), client: 103.227.62.246, server: elrenda.ru, request: \"GET /config.js HTTP/1.1\", host: \"elrenda.ru\"\n2026/10/04 20:45:39 [error] 2816175#2816175: *10615 open() \"/var/www/elrenda/secrets.js\" failed (2: No such file or directory), client: 103.227.62.246, server: elrenda.ru, request: \"GET /secrets.js HTTP/1.1\", host: \"elrenda.ru\"\n2026/10/04 20:51:12 [error] 2816175#2816175: *10624 open() \"/var/www/elrenda/keys.js\" failed (2: No such file or directory), client: 103.227.62.246, server: elrenda.ru, request: \"GET /keys.js HTTP/1.1\", host: \"elrenda.ru\"",
@@ -108,7 +107,8 @@
     "=== 2026-10-04T23:23:09+03:00 - nginx errors ===\n2026/10/04 23:15:28 [error] 2816175#2816175: *11081 open() \"/var/www/elrenda/public/app.js\" failed (2: No such file or directory), client: 103.227.62.246, server: elrenda.ru, request: \"GET /public/app.js HTTP/1.1\", host: \"elrenda.ru\"",
     "=== 2026-10-04T23:38:09+03:00 - nginx errors ===\n2026/10/04 23:23:53 [error] 2816174#2816174: *11086 open() \"/var/www/elrenda/public/main.js\" failed (2: No such file or directory), client: 103.227.62.246, server: elrenda.ru, request: \"GET /public/main.js HTTP/1.1\", host: \"elrenda.ru\"",
     "=== 2026-10-04T23:53:10+03:00 - nginx errors ===\n2026/10/04 23:42:32 [error] 2816174#2816174: *11100 access forbidden by rule, client: 195.178.110.199, server: elrenda.ru, request: \"GET /.env HTTP/1.1\", host: \"elrenda.ru\"\n2026/10/04 23:42:32 [error] 2816174#2816174: *11114 open() \"/var/www/elrenda/\"js/img-fallback.js\" failed (2: No such file or directory), client: 195.178.110.199, server: elrenda.ru, request: \"GET /%22js/img-fallback.js?v=0.9.239\" HTTP/1.1\", host: \"elrenda.ru\"\n2026/10/04 23:42:33 [error] 2816175#2816175: *11120 open() \"/var/www/elrenda/\"js/bundle.js\" failed (2: No such file or directory), client: 195.178.110.199, server: elrenda.ru, request: \"GET /%22js/bundle.js?v=0.9.239\" HTTP/1.1\", host: \"elrenda.ru\"\n2026/10/04 23:42:34 [error] 2816175#2816175: *11126 access forbidden by rule, client: 195.178.110.199, server: elrenda.ru, request: \"GET /.env.save HTTP/1.1\", host: \"elrenda.ru\"\n2026/10/04 23:42:34 [error] 2816175#2816175: *11126 access forbidden by rule, client: 195.178.110.199, server: elrenda.ru, request: \"GET /.env.backup HTTP/1.1\", host: \"elrenda.ru\"\n2026/10/04 23:42:34 [error] 2816175#2816175: *11126 access forbidden by rule, client: 195.178.110.199, server: elrenda.ru, request: \"GET /.env.example HTTP/1.1\", host: \"elrenda.ru\"\n2026/10/04 23:42:34 [error] 2816175#2816175: *11126 access forbidden by rule, client: 195.178.110.199, server: elrenda.ru, request: \"GET /.env.test HTTP/1.1\", host: \"elrenda.ru\"\n2026/10/04 23:42:34 [error] 2816175#2816175: *11126 access forbidden by rule, client: 195.178.110.199, server: elrenda.ru, request: \"GET /.env.prod HTTP/1.1\", host: \"elrenda.ru\"\n2026/10/04 23:42:35 [error] 2816175#2816175: *11126 access forbidden by rule, client: 195.178.110.199, server: elrenda.ru, request: \"GET /backend/.env HTTP/1.1\", host: \"elrenda.ru\"\n2026/10/04 23:42:35 [error] 2816175#2816175: *11126 access forbidden by rule, client: 195.178.110.199, server: elrenda.ru, request: \"GET /admin/.env HTTP/1.1\", host: \"elrenda.ru\"\n2026/10/04 23:42:36 [error] 2816175#2816175: *11126 access forbidden by rule, client: 195.178.110.199, server: elrenda.ru, request: \"GET /app/.env HTTP/1.1\", host: \"elrenda.ru\"\n2026/10/04 23:42:37 [error] 2816175#2816175: *11126 access forbidden by rule, client: 195.178.110.199, server: elrenda.ru, request: \"GET /.git/config HTTP/1.1\", host: \"elrenda.ru\"\n2026/10/04 23:42:38 [error] 2816175#2816175: *11126 open() \"/var/www/elrenda/config.js\" failed (2: No such file or directory), client: 195.178.110.199, server: elrenda.ru, request: \"GET /config.js HTTP/1.1\", host: \"elrenda.ru\"\n2026/10/04 23:42:39 [error] 2816175#2816175: *11126 open() \"/var/www/elrenda/aws-config.js\" failed (2: No such file or directory), client: 195.178.110.199, server: elrenda.ru, request: \"GET /aws-config.js HTTP/1.1\", host: \"elrenda.ru\"\n2026/10/04 23:42:39 [error] 2816175#2816175: *11126 open() \"/var/www/elrenda/aws.config.js\" failed (2: No such file or directory), client: 195.178.110.199, server: elrenda.ru, request: \"GET /aws.config.js HTTP/1.1\", host: \"elrenda.ru\"\n2026/10/04 23:42:46 [error] 2816175#2816175: *11126 access forbidden by rule, client: 195.178.110.199, server: elrenda.ru, request: \"GET /.aws/credentials HTTP/1.1\", host: \"elrenda.ru\"\n2026/10/04 23:42:46 [error] 2816175#2816175: *11126 access forbidden by rule, client: 195.178.110.199, server: elrenda.ru, request: \"GET /.aws/config HTTP/1.1\", host: \"elrenda.ru\"\n2026/10/04 23:42:48 [error] 2816175#2816175: *11126 access forbidden by rule, client: 195.178.110.199, server: elrenda.ru, request: \"GET /.s3cfg HTTP/1.1\", host: \"elrenda.ru\"\n2026/10/04 23:42:56 [error] 2816175#2816175: *11126 access forbidden by rule, client: 195.178.110.199, server: elrenda.ru, request: \"GET /.htpasswd HTTP/1.1\", host: \"elrenda.ru\"\n2026/10/04 23:42:59 [error] 2816175#2816175: *11126 access forbidden by rule, client: 195.178.110.199, server: elrenda.ru, request: \"GET /.travis.yml HTTP/1.1\", host: \"elrenda.ru\"",
-    "=== 2026-10-05T04:53:40+03:00 - nginx errors ===\n2026/10/05 04:48:32 [error] 2816174#2816174: *11965 access forbidden by rule, client: 64.226.91.50, server: elrenda.ru, request: \"GET /.git/config HTTP/1.1\", host: \"elrenda.ru\""
+    "=== 2026-10-05T04:53:40+03:00 - nginx errors ===\n2026/10/05 04:48:32 [error] 2816174#2816174: *11965 access forbidden by rule, client: 64.226.91.50, server: elrenda.ru, request: \"GET /.git/config HTTP/1.1\", host: \"elrenda.ru\"",
+    "=== 2026-10-05T06:23:46+03:00 - nginx errors ===\n2026/10/05 06:21:48 [error] 2816174#2816174: *12043 open() \"/var/www/elrenda/apple-touch-icon-precomposed.png\" failed (2: No such file or directory), client: 88.201.175.148, server: elrenda.ru, request: \"GET /apple-touch-icon-precomposed.png HTTP/1.1\", host: \"elrenda.ru\""
   ],
   "existing_tasks": [
     {
