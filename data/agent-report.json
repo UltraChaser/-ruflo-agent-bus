@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T15:00:02.750826+00:00",
+  "generated_at": "2026-10-06T17:00:03.116812+00:00",
   "note": "Только для чтения. recent_app_errors — уже отфильтровано под ошибки/исключения за последние 24ч, обычные access-логи вырезаны.",
   "projects": [
     {
@@ -17,7 +17,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 148
+        "ms": 213
       },
       "recent_commits": [
         {
@@ -48,7 +48,7 @@
           "unit": "elpower-api.service",
           "active": "active",
           "sub": "running",
-          "since": "Tue 2026-10-06 14:29:34 MSK",
+          "since": "Tue 2026-10-06 19:49:43 MSK",
           "restarts": "0",
           "result": "success"
         },
@@ -64,7 +64,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 55
+        "ms": 136
       },
       "recent_commits": [
         {
@@ -97,6 +97,11 @@
         "(node:3199013) ExperimentalWarning: SQLite is an experimental feature and might change at any time",
         "(node:3201747) ExperimentalWarning: SQLite is an experimental feature and might change at any time",
         "(node:3202970) ExperimentalWarning: SQLite is an experimental feature and might change at any time",
+        "(node:3221617) ExperimentalWarning: SQLite is an experimental feature and might change at any time",
+        "(node:3224406) ExperimentalWarning: SQLite is an experimental feature and might change at any time",
+        "(node:3228062) ExperimentalWarning: SQLite is an experimental feature and might change at any time",
+        "(node:3228505) ExperimentalWarning: SQLite is an experimental feature and might change at any time",
+        "(node:3229334) ExperimentalWarning: SQLite is an experimental feature and might change at any time",
         "2026-10-06 12:24:25 [WARNING] tg curl-fail getWebhookInfo try 1: curl: (28) SSL connection timeout"
       ]
     }
