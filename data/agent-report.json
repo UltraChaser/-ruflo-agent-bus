@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T15:00:02.583179+00:00",
+  "generated_at": "2026-10-07T17:00:02.294681+00:00",
   "note": "Только для чтения. recent_app_errors — уже отфильтровано под ошибки/исключения за последние 24ч, обычные access-логи вырезаны.",
   "projects": [
     {
@@ -17,7 +17,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 174
+        "ms": 161
       },
       "recent_commits": [
         {
@@ -64,7 +64,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 43
+        "ms": 157
       },
       "recent_commits": [
         {
@@ -91,11 +91,6 @@
         }
       },
       "recent_app_errors": [
-        "(node:3221617) ExperimentalWarning: SQLite is an experimental feature and might change at any time",
-        "(node:3224406) ExperimentalWarning: SQLite is an experimental feature and might change at any time",
-        "(node:3228062) ExperimentalWarning: SQLite is an experimental feature and might change at any time",
-        "(node:3228505) ExperimentalWarning: SQLite is an experimental feature and might change at any time",
-        "(node:3229334) ExperimentalWarning: SQLite is an experimental feature and might change at any time",
         "(node:3326977) ExperimentalWarning: SQLite is an experimental feature and might change at any time"
       ]
     }
