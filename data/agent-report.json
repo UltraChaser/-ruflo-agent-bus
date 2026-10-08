@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T11:00:02.248934+00:00",
+  "generated_at": "2026-10-08T13:00:02.188510+00:00",
   "note": "Только для чтения. recent_app_errors — уже отфильтровано под ошибки/исключения за последние 24ч, обычные access-логи вырезаны.",
   "projects": [
     {
@@ -17,7 +17,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 185
+        "ms": 132
       },
       "recent_commits": [
         {
@@ -64,7 +64,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 126
+        "ms": 44
       },
       "recent_commits": [
         {
@@ -90,13 +90,10 @@
           "total": 0
         }
       },
-      "recent_app_errors": [
-        "(node:3326977) ExperimentalWarning: SQLite is an experimental feature and might change at any time"
-      ]
+      "recent_app_errors": []
     }
   ],
   "nginx_errors_tail": [
-    "=== 2026-10-06T02:40:38+03:00 - nginx errors ===\n2026/10/06 02:27:09 [error] 3073478#3073478: *14420 open() \"/var/www/elrenda/apple-touch-icon-precomposed.png\" failed (2: No such file or directory), client: 178.66.131.64, server: elrenda.ru, request: \"GET /apple-touch-icon-precomposed.png HTTP/1.1\", host: \"elrenda.ru\"",
     "=== 2026-10-06T04:40:52+03:00 - nginx errors ===\n2026/10/06 04:35:21 [error] 3073479#3073479: *14559 open() \"/var/www/elrenda/js/css/bundle.css\" failed (2: No such file or directory), client: 74.7.241.14, server: elrenda.ru, request: \"GET /js/css/bundle.css?v=0.9.239 HTTP/1.1\", host: \"elrenda.ru\", referrer: \"https://elrenda.ru/js/$%7Besc(mapEmbedSrc)%7D\"",
     "=== 2026-10-06T10:11:20+03:00 - nginx errors ===\n2026/10/06 09:57:09 [error] 3073478#3073478: *15814 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 66.132.224.227, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/10/06 09:59:23 [error] 3073479#3073479: *15822 openat() \"/usr/share/nginx/html/.well-known/security.txt\" failed (2: No such file or directory), client: 66.132.224.227, server: 155.212.161.162, request: \"GET /.well-known/security.txt HTTP/1.1\", host: \"155.212.161.162:1501\"",
     "=== 2026-10-06T11:26:28+03:00 - nginx errors ===\n2026/10/06 11:16:05 [error] 3073479#3073479: *17337 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 85.217.149.6, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"",
@@ -110,7 +107,8 @@
     "=== 2026-10-07T12:43:53+03:00 - nginx errors ===\n2026/10/07 12:30:02 [error] 3203871#3203871: *24214 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 85.217.149.30, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"",
     "=== 2026-10-07T14:43:59+03:00 - nginx errors ===\n2026/10/07 14:40:01 [error] 3203870#3203870: *25455 access forbidden by rule, client: 20.210.128.125, server: elrenda.ru, request: \"GET /.well-known.php HTTP/1.1\", host: \"elrenda.ru\"",
     "=== 2026-10-07T22:14:44+03:00 - nginx errors ===\n2026/10/07 22:02:53 [error] 3203871#3203871: *27394 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 217.146.80.100, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/10/07 22:02:53 [error] 3203870#3203870: *27397 \"/usr/share/nginx/html/mcp/index.html\" is not found (2: No such file or directory), client: 81.19.219.211, server: 155.212.161.162, request: \"GET /mcp/ HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/10/07 22:02:53 [error] 3203871#3203871: *27396 openat() \"/usr/share/nginx/html/mcp\" failed (2: No such file or directory), client: 193.176.29.2, server: 155.212.161.162, request: \"GET /mcp HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/10/07 22:02:53 [error] 3203870#3203870: *27398 openat() \"/usr/share/nginx/html/api/mcp\" failed (2: No such file or directory), client: 188.240.59.14, server: 155.212.161.162, request: \"GET /api/mcp HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/10/07 22:02:53 [error] 3203870#3203870: *27399 openat() \"/usr/share/nginx/html/sse\" failed (2: No such file or directory), client: 5.226.140.41, server: 155.212.161.162, request: \"GET /sse HTTP/1.1\", host: \"155.212.161.162:1501\"",
-    "=== 2026-10-08T00:59:56+03:00 - nginx errors ===\n2026/10/08 00:56:28 [error] 3203870#3203870: *27867 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 66.132.224.94, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/10/08 00:56:30 [error] 3203871#3203871: *27866 access forbidden by rule, client: 34.169.11.165, server: elrenda.ru, request: \"GET /.git/config HTTP/1.1\", host: \"elrenda.ru\"\n2026/10/08 00:57:08 [error] 3203870#3203870: *27872 openat() \"/usr/share/nginx/html/robots.txt\" failed (2: No such file or directory), client: 66.132.224.94, server: 155.212.161.162, request: \"GET /robots.txt HTTP/1.1\", host: \"155.212.161.162:1501\""
+    "=== 2026-10-08T00:59:56+03:00 - nginx errors ===\n2026/10/08 00:56:28 [error] 3203870#3203870: *27867 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 66.132.224.94, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/10/08 00:56:30 [error] 3203871#3203871: *27866 access forbidden by rule, client: 34.169.11.165, server: elrenda.ru, request: \"GET /.git/config HTTP/1.1\", host: \"elrenda.ru\"\n2026/10/08 00:57:08 [error] 3203870#3203870: *27872 openat() \"/usr/share/nginx/html/robots.txt\" failed (2: No such file or directory), client: 66.132.224.94, server: 155.212.161.162, request: \"GET /robots.txt HTTP/1.1\", host: \"155.212.161.162:1501\"",
+    "=== 2026-10-08T15:01:02+03:00 - nginx errors ===\n2026/10/08 14:49:25 [error] 3399274#3399274: *1299 access forbidden by rule, client: 185.177.72.75, server: elrenda.ru, request: \"GET /pages/%2eenv?v=1tV98 HTTP/1.1\", host: \"elrenda.ru\", referrer: \"http://elrenda.ru/pages/%2eenv?v=1tV98\"\n2026/10/08 14:49:26 [error] 3399275#3399275: *1302 access forbidden by rule, client: 185.177.72.75, server: elrenda.ru, request: \"GET /auth/%2eenv?v=ewO97 HTTP/1.1\", host: \"elrenda.ru\", referrer: \"http://elrenda.ru/auth/%2eenv?v=ewO97\"\n2026/10/08 14:49:26 [error] 3399275#3399275: *1302 access forbidden by rule, client: 185.177.72.75, server: elrenda.ru, request: \"GET /%63%6c%6f%75%64/.%65%6e%76?v=qPr5S HTTP/1.1\", host: \"elrenda.ru\", referrer: \"http://elrenda.ru/%63%6c%6f%75%64/.%65%6e%76?v=qPr5S\"\n2026/10/08 14:49:26 [error] 3399274#3399274: *1299 access forbidden by rule, client: 185.177.72.75, server: elrenda.ru, request: \"GET /%2eenv%2e1?v=KvFNR HTTP/1.1\", host: \"elrenda.ru\", referrer: \"http://elrenda.ru/%2eenv%2e1?v=KvFNR\"\n2026/10/08 14:49:26 [error] 3399275#3399275: *1302 access forbidden by rule, client: 185.177.72.75, server: elrenda.ru, request: \"GET /%66%65%61%74%75%72%65/.%65%6e%76?v=mHahZ HTTP/1.1\", host: \"elrenda.ru\", referrer: \"http://elrenda.ru/%66%65%61%74%75%72%65/.%65%6e%76?v=mHahZ\"\n2026/10/08 14:49:42 [error] 3399274#3399274: *1305 access forbidden by rule, client: 185.177.72.75, server: elrenda.ru, request: \"GET /%6d%69%67%72%61%74%69%6f%6e%73/.%65%6e%76?v=4ssrT HTTP/1.1\", host: \"elrenda.ru\", referrer: \"http://elrenda.ru/%6d%69%67%72%61%74%69%6f%6e%73/.%65%6e%76?v=4ssrT\"\n2026/10/08 14:49:42 [error] 3399274#3399274: *1305 access forbidden by rule, client: 185.177.72.75, server: elrenda.ru, request: \"GET /exports/%2eenv?v=SaRoO HTTP/1.1\", host: \"elrenda.ru\", referrer: \"http://elrenda.ru/exports/%2eenv?v=SaRoO\"\n2026/10/08 14:49:42 [error] 3399274#3399274: *1299 access forbidden by rule, client: 185.177.72.75, server: elrenda.ru, request: \"GET /socket/.env HTTP/1.1\", host: \"elrenda.ru\", referrer: \"http://elrenda.ru/socket/.env\"\n2026/10/08 14:49:42 [error] 3399275#3399275: *1302 access forbidden by rule, client: 185.177.72.75, server: elrenda.ru, request: \"GET /src/.env HTTP/1.1\", host: \"elrenda.ru\", referrer: \"http://elrenda.ru/src/.env\"\n2026/10/08 14:49:50 [error] 3399274#3399274: *1305 access forbidden by rule, client: 185.177.72.75, server: elrenda.ru, request: \"GET /store/.env?v=UYKme HTTP/1.1\", host: \"elrenda.ru\", referrer: \"http://elrenda.ru/store/.env?v=UYKme\"\n2026/10/08 14:49:50 [error] 3399274#3399274: *1305 access forbidden by rule, client: 185.177.72.75, server: elrenda.ru, request: \"GET /util/.env HTTP/1.1\", host: \"elrenda.ru\", referrer: \"http://elrenda.ru/util/.env\"\n2026/10/08 14:49:51 [error] 3399275#3399275: *1302 access forbidden by rule, client: 185.177.72.75, server: elrenda.ru, request: \"GET /%66%69%6c%65%73/.%65%6e%76?v=rUMbi HTTP/1.1\", host: \"elrenda.ru\", referrer: \"http://elrenda.ru/%66%69%6c%65%73/.%65%6e%76?v=rUMbi\"\n2026/10/08 14:50:07 [error] 3399275#3399275: *1302 access forbidden by rule, client: 185.177.72.75, server: elrenda.ru, request: \"GET /%70%68%70%6d%79%61%64%6d%69%6e/.%65%6e%76?v=DzoXm HTTP/1.1\", host: \"elrenda.ru\", referrer: \"http://elrenda.ru/%70%68%70%6d%79%61%64%6d%69%6e/.%65%6e%76?v=DzoXm\"\n2026/10/08 14:50:07 [error] 3399275#3399275: *1302 access forbidden by rule, client: 185.177.72.75, server: elrenda.ru, request: \"GET /%72%6f%75%74%65%73/.%65%6e%76?v=VWcXW HTTP/1.1\", host: \"elrenda.ru\", referrer: \"http://elrenda.ru/%72%6f%75%74%65%73/.%65%6e%76?v=VWcXW\""
   ],
   "existing_tasks": [
     {
