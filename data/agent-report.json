@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T09:00:02.325495+00:00",
+  "generated_at": "2026-10-09T11:00:02.218350+00:00",
   "note": "Только для чтения. recent_app_errors — уже отфильтровано под ошибки/исключения за последние 24ч, обычные access-логи вырезаны.",
   "projects": [
     {
@@ -17,7 +17,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 175
+        "ms": 120
       },
       "recent_commits": [
         {
@@ -64,7 +64,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 27
+        "ms": 158
       },
       "recent_commits": [
         {
@@ -96,7 +96,6 @@
     }
   ],
   "nginx_errors_tail": [
-    "=== 2026-10-07T01:42:51+03:00 - nginx errors ===\n2026/10/07 01:30:08 [error] 3203870#3203870: *22706 access forbidden by rule, client: 93.123.109.101, server: elrenda.ru, request: \"GET /.git/HEAD HTTP/1.1\", host: \"elrenda.ru\"",
     "=== 2026-10-07T10:43:40+03:00 - nginx errors ===\n2026/10/07 10:36:32 [error] 3203870#3203870: *23957 access forbidden by rule, client: 93.123.109.101, server: elrenda.ru, request: \"GET /.git/HEAD HTTP/1.1\", host: \"elrenda.ru\"",
     "=== 2026-10-07T12:28:51+03:00 - nginx errors ===\n2026/10/07 12:22:28 [error] 3203870#3203870: *24212 access forbidden by rule, client: 94.154.43.122, server: elrenda.ru, request: \"GET /.env HTTP/1.1\", host: \"elrenda.ru\"",
     "=== 2026-10-07T12:43:53+03:00 - nginx errors ===\n2026/10/07 12:30:02 [error] 3203871#3203871: *24214 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 85.217.149.30, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"",
@@ -110,7 +109,8 @@
     "=== 2026-10-09T00:16:56+03:00 - nginx errors ===\n2026/10/09 00:08:07 [error] 3399275#3399275: *3462 access forbidden by rule, client: 192.222.53.104, server: elrenda.ru, request: \"GET /.git/config HTTP/1.1\", host: \"elrenda.ru\"",
     "=== 2026-10-09T02:02:06+03:00 - nginx errors ===\n2026/10/09 01:55:37 [error] 3399274#3399274: *3678 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 66.132.186.198, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/10/09 01:56:32 [error] 3399274#3399274: *3683 openat() \"/usr/share/nginx/html/sellers.json\" failed (2: No such file or directory), client: 66.132.186.198, server: 155.212.161.162, request: \"GET /sellers.json HTTP/1.1\", host: \"155.212.161.162:1501\"",
     "=== 2026-10-09T04:47:25+03:00 - nginx errors ===\n2026/10/09 04:44:08 [error] 3399275#3399275: *4103 open() \"/var/www/elrenda/js/css/bundle.css\" failed (2: No such file or directory), client: 74.7.243.207, server: elrenda.ru, request: \"GET /js/css/bundle.css?v=0.9.243 HTTP/1.1\", host: \"elrenda.ru\", referrer: \"https://elrenda.ru/js/$%7BphotoUrl(u,%20240)%7D\"",
-    "=== 2026-10-09T10:32:58+03:00 - nginx errors ===\n2026/10/09 10:21:22 [error] 3507240#3507240: *513 access forbidden by rule, client: 94.154.43.164, server: elrenda.ru, request: \"GET /.env HTTP/1.1\", host: \"elrenda.ru\""
+    "=== 2026-10-09T10:32:58+03:00 - nginx errors ===\n2026/10/09 10:21:22 [error] 3507240#3507240: *513 access forbidden by rule, client: 94.154.43.164, server: elrenda.ru, request: \"GET /.env HTTP/1.1\", host: \"elrenda.ru\"",
+    "=== 2026-10-09T13:03:13+03:00 - nginx errors ===\n2026/10/09 12:52:35 [error] 3507241#3507241: *791 openat() \"/usr/share/nginx/html/nmaplowercheck1791539554\" failed (2: No such file or directory), client: 39.100.77.18, server: 155.212.161.162, request: \"GET /nmaplowercheck1791539554 HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/10/09 12:52:36 [error] 3507241#3507241: *792 openat() \"/usr/share/nginx/html/HNAP1\" failed (2: No such file or directory), client: 39.100.77.18, server: 155.212.161.162, request: \"GET /HNAP1 HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/10/09 12:52:36 [error] 3507241#3507241: *793 openat() \"/usr/share/nginx/html/evox/about\" failed (2: No such file or directory), client: 39.100.77.18, server: 155.212.161.162, request: \"GET /evox/about HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/10/09 12:52:39 [error] 3507241#3507241: *795 openat() \"/usr/share/nginx/html/sdk\" failed (2: No such file or directory), client: 39.100.77.18, server: 155.212.161.162, request: \"POST /sdk HTTP/1.1\", host: \"155.212.161.162:1501\""
   ],
   "existing_tasks": [
     {
