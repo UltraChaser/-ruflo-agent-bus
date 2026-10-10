@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T19:00:02.314889+00:00",
+  "generated_at": "2026-10-10T21:00:04.637183+00:00",
   "note": "Только для чтения. recent_app_errors — уже отфильтровано под ошибки/исключения за последние 24ч, обычные access-логи вырезаны.",
   "projects": [
     {
@@ -17,7 +17,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 117
+        "ms": 620
       },
       "recent_commits": [
         {
@@ -64,7 +64,7 @@
       "public_url_check": {
         "ok": true,
         "code": 200,
-        "ms": 78
+        "ms": 107
       },
       "recent_commits": [
         {
@@ -94,7 +94,6 @@
     }
   ],
   "nginx_errors_tail": [
-    "=== 2026-10-09T02:02:06+03:00 - nginx errors ===\n2026/10/09 01:55:37 [error] 3399274#3399274: *3678 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 66.132.186.198, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/10/09 01:56:32 [error] 3399274#3399274: *3683 openat() \"/usr/share/nginx/html/sellers.json\" failed (2: No such file or directory), client: 66.132.186.198, server: 155.212.161.162, request: \"GET /sellers.json HTTP/1.1\", host: \"155.212.161.162:1501\"",
     "=== 2026-10-09T04:47:25+03:00 - nginx errors ===\n2026/10/09 04:44:08 [error] 3399275#3399275: *4103 open() \"/var/www/elrenda/js/css/bundle.css\" failed (2: No such file or directory), client: 74.7.243.207, server: elrenda.ru, request: \"GET /js/css/bundle.css?v=0.9.243 HTTP/1.1\", host: \"elrenda.ru\", referrer: \"https://elrenda.ru/js/$%7BphotoUrl(u,%20240)%7D\"",
     "=== 2026-10-09T10:32:58+03:00 - nginx errors ===\n2026/10/09 10:21:22 [error] 3507240#3507240: *513 access forbidden by rule, client: 94.154.43.164, server: elrenda.ru, request: \"GET /.env HTTP/1.1\", host: \"elrenda.ru\"",
     "=== 2026-10-09T13:03:13+03:00 - nginx errors ===\n2026/10/09 12:52:35 [error] 3507241#3507241: *791 openat() \"/usr/share/nginx/html/nmaplowercheck1791539554\" failed (2: No such file or directory), client: 39.100.77.18, server: 155.212.161.162, request: \"GET /nmaplowercheck1791539554 HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/10/09 12:52:36 [error] 3507241#3507241: *792 openat() \"/usr/share/nginx/html/HNAP1\" failed (2: No such file or directory), client: 39.100.77.18, server: 155.212.161.162, request: \"GET /HNAP1 HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/10/09 12:52:36 [error] 3507241#3507241: *793 openat() \"/usr/share/nginx/html/evox/about\" failed (2: No such file or directory), client: 39.100.77.18, server: 155.212.161.162, request: \"GET /evox/about HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/10/09 12:52:39 [error] 3507241#3507241: *795 openat() \"/usr/share/nginx/html/sdk\" failed (2: No such file or directory), client: 39.100.77.18, server: 155.212.161.162, request: \"POST /sdk HTTP/1.1\", host: \"155.212.161.162:1501\"",
@@ -108,7 +107,8 @@
     "=== 2026-10-10T14:51:01+03:00 - nginx errors ===\n2026/10/10 14:36:40 [error] 3629980#3629980: *1408 open() \"/var/www/elrenda/apple-touch-icon-precomposed.png\" failed (2: No such file or directory), client: 94.188.103.19, server: elrenda.ru, request: \"GET /apple-touch-icon-precomposed.png HTTP/1.1\", host: \"elrenda.ru\"",
     "=== 2026-10-10T15:36:06+03:00 - nginx errors ===\n2026/10/10 15:25:47 [error] 3629979#3629979: *1511 access forbidden by rule, client: 172.71.122.16, server: elrenda.ru, request: \"GET /.git/config HTTP/1.1\", host: \"elrenda.ru\"",
     "=== 2026-10-10T16:51:12+03:00 - nginx errors ===\n2026/10/10 16:47:21 [error] 3629979#3629979: *1785 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 91.196.152.5, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"",
-    "=== 2026-10-10T18:06:18+03:00 - nginx errors ===\n2026/10/10 17:59:18 [error] 3629979#3629979: *1891 open() \"/var/www/elrenda/apple-touch-icon-precomposed.png\" failed (2: No such file or directory), client: 77.239.109.227, server: elrenda.ru, request: \"GET /apple-touch-icon-precomposed.png HTTP/1.1\", host: \"elrenda.ru\"\n2026/10/10 17:59:19 [error] 3629980#3629980: *1892 open() \"/var/www/elrenda/apple-touch-icon.png\" failed (2: No such file or directory), client: 77.239.109.227, server: elrenda.ru, request: \"GET /apple-touch-icon.png HTTP/1.1\", host: \"elrenda.ru\""
+    "=== 2026-10-10T18:06:18+03:00 - nginx errors ===\n2026/10/10 17:59:18 [error] 3629979#3629979: *1891 open() \"/var/www/elrenda/apple-touch-icon-precomposed.png\" failed (2: No such file or directory), client: 77.239.109.227, server: elrenda.ru, request: \"GET /apple-touch-icon-precomposed.png HTTP/1.1\", host: \"elrenda.ru\"\n2026/10/10 17:59:19 [error] 3629980#3629980: *1892 open() \"/var/www/elrenda/apple-touch-icon.png\" failed (2: No such file or directory), client: 77.239.109.227, server: elrenda.ru, request: \"GET /apple-touch-icon.png HTTP/1.1\", host: \"elrenda.ru\"",
+    "=== 2026-10-10T22:21:45+03:00 - nginx errors ===\n2026/10/10 22:17:54 [error] 3629979#3629979: *2388 openat() \"/usr/share/nginx/html/favicon.ico\" failed (2: No such file or directory), client: 81.19.216.85, server: 155.212.161.162, request: \"GET /favicon.ico HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/10/10 22:17:54 [error] 3629980#3629980: *2390 openat() \"/usr/share/nginx/html/api/mcp\" failed (2: No such file or directory), client: 81.19.216.117, server: 155.212.161.162, request: \"GET /api/mcp HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/10/10 22:17:54 [error] 3629979#3629979: *2391 \"/usr/share/nginx/html/mcp/index.html\" is not found (2: No such file or directory), client: 185.223.235.24, server: 155.212.161.162, request: \"GET /mcp/ HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/10/10 22:17:54 [error] 3629979#3629979: *2392 openat() \"/usr/share/nginx/html/mcp\" failed (2: No such file or directory), client: 193.176.31.206, server: 155.212.161.162, request: \"GET /mcp HTTP/1.1\", host: \"155.212.161.162:1501\"\n2026/10/10 22:17:54 [error] 3629979#3629979: *2393 openat() \"/usr/share/nginx/html/sse\" failed (2: No such file or directory), client: 89.21.67.177, server: 155.212.161.162, request: \"GET /sse HTTP/1.1\", host: \"155.212.161.162:1501\""
   ],
   "existing_tasks": [
     {
